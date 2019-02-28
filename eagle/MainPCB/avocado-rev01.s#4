@@ -3359,6 +3359,13 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <label x="30.48" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="USB-ID" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="ID"/>
+<wire x1="27.94" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<label x="30.48" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
