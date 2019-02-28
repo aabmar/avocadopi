@@ -3163,6 +3163,7 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <part name="GND4" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="J1" library="10118194-0001LF" deviceset="10118194-0001LF" device=""/>
 <part name="J2" library="m-pad-2.1" deviceset="CON-DSUB-15-VGA" device=""/>
+<part name="GND5" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3256,6 +3257,9 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <attribute name="VALUE" x="168.91" y="66.04" size="1.778" layer="96"/>
 <attribute name="NAME" x="168.91" y="115.697" size="1.778" layer="95"/>
 </instance>
+<instance part="GND5" gate="1" x="27.94" y="73.66" smashed="yes">
+<attribute name="VALUE" x="25.4" y="71.12" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3276,6 +3280,14 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
+<wire x1="27.94" y1="88.9" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="27.94" y1="83.82" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+<junction x="27.94" y="83.82"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -3337,6 +3349,14 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <pinref part="U1" gate="G$5" pin="USB-DP"/>
 <wire x1="27.94" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="93.98" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="VCC"/>
+<wire x1="27.94" y1="99.06" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="99.06" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
+<label x="30.48" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

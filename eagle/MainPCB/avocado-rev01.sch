@@ -3170,8 +3170,8 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 <wire x1="-10.16" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
 <wire x1="12.7" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<text x="-10.1651" y="10.1651" size="1.270640625" layer="95">&gt;NAME</text>
-<text x="-10.1613" y="-12.7016" size="1.270159375" layer="96">&gt;VALUE</text>
+<text x="-10.1651" y="10.1651" size="1.270640625" layer="95">Micro SD </text>
+<text x="-10.1613" y="-12.7016" size="1.270159375" layer="96">Molex</text>
 <pin name="DAT2" x="-15.24" y="2.54" length="middle"/>
 <pin name="DAT3/CD" x="-15.24" y="0" length="middle"/>
 <pin name="CMD" x="-15.24" y="-2.54" length="middle"/>

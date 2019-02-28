@@ -2178,6 +2178,35 @@ Please send any comments to: &lt;a href="mailto:messi@users.sourceforge.net"&gt;
 </package>
 </packages>
 </library>
+<library name="0475710001">
+<packages>
+<package name="MOLEX_0475710001">
+<wire x1="-5.7" y1="1.275" x2="-5.7" y2="2.725" width="0.2" layer="21"/>
+<wire x1="-5.7" y1="2.725" x2="5.7" y2="2.725" width="0.2" layer="21"/>
+<wire x1="5.7" y1="2.725" x2="5.7" y2="0.875" width="0.2" layer="21"/>
+<wire x1="-4.4" y1="-2.725" x2="4.25" y2="-2.725" width="0.2" layer="21"/>
+<wire x1="-5.95" y1="2.95" x2="6.15" y2="2.95" width="0.05" layer="39"/>
+<wire x1="6.15" y1="2.95" x2="6.15" y2="-3.05" width="0.05" layer="39"/>
+<wire x1="6.15" y1="-3.05" x2="-5.95" y2="-3.05" width="0.05" layer="39"/>
+<wire x1="-5.95" y1="-3.05" x2="-5.95" y2="2.95" width="0.05" layer="39"/>
+<text x="-5.3064" y="3.103740625" size="1.27153125" layer="25">&gt;NAME</text>
+<text x="-5.60676875" y="-4.3052" size="1.271540625" layer="27">&gt;VALUE</text>
+<smd name="1" x="3.55" y="1.415" dx="0.7" dy="1" layer="1" rot="R180"/>
+<smd name="2" x="2.45" y="1.415" dx="0.7" dy="1" layer="1" rot="R180"/>
+<smd name="3" x="1.35" y="1.415" dx="0.7" dy="1" layer="1" rot="R180"/>
+<smd name="4" x="0.25" y="1.415" dx="0.7" dy="1" layer="1" rot="R180"/>
+<smd name="5" x="-0.85" y="1.415" dx="0.7" dy="1" layer="1" rot="R180"/>
+<smd name="6" x="-1.95" y="1.415" dx="0.7" dy="1" layer="1" rot="R180"/>
+<smd name="7" x="-3.05" y="1.415" dx="0.7" dy="1" layer="1" rot="R180"/>
+<smd name="8" x="-4.15" y="1.415" dx="0.7" dy="1" layer="1" rot="R180"/>
+<smd name="13" x="5.175" y="-0.075" dx="1.45" dy="1.2" layer="1"/>
+<smd name="12" x="5.4" y="-1.225" dx="0.7" dy="1" layer="1" rot="R270"/>
+<smd name="11" x="5.2" y="-2.375" dx="1.4" dy="0.9" layer="1"/>
+<smd name="9" x="-5.225" y="0.365" dx="1.15" dy="1.2" layer="1"/>
+<smd name="10" x="-5.225" y="-2.225" dx="1.15" dy="1.2" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2408,6 +2437,16 @@ design rules under a new name.</description>
 <attribute name="NAME" x="0.59" y="-2.52" size="1.27" layer="25"/>
 <attribute name="VALUE" x="23.3" y="-2.5" size="1.4224" layer="27"/>
 </element>
+<element name="J3" library="0475710001" package="MOLEX_0475710001" value="0475710001" x="7" y="-25" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="7" y="-25" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Conn Micro SD Card HDR 8 POS 1.1mm Solder RA SMD Embossed T/R 0.5A/Contact " x="7" y="-25" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Molex" x="7" y="-25" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="0475710001" x="7" y="-25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="1.6936" y="-21.896259375" size="1.27153125" layer="25"/>
+<attribute name="PACKAGE" value="None" x="7" y="-25" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="7" y="-25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="1.39323125" y="-29.3052" size="1.271540625" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2428,6 +2467,9 @@ design rules under a new name.</description>
 <contactref element="J1" pad="S6"/>
 <contactref element="J1" pad="S2"/>
 <contactref element="J1" pad="S4"/>
+<contactref element="J3" pad="9"/>
+<contactref element="J3" pad="10"/>
+<contactref element="J3" pad="13"/>
 <wire x1="18.85" y1="28" x2="18.85" y2="30" width="0" layer="19" extent="1-1"/>
 <wire x1="18.85" y1="26" x2="18.85" y2="28" width="0" layer="19" extent="1-1"/>
 <wire x1="18.85" y1="24" x2="18.85" y2="26" width="0" layer="19" extent="1-1"/>
@@ -2438,6 +2480,9 @@ design rules under a new name.</description>
 <wire x1="12.3" y1="31.7" x2="12" y2="29" width="0" layer="19" extent="1-1"/>
 <wire x1="13.5" y1="31.7" x2="12.3" y2="31.7" width="0" layer="19" extent="1-1"/>
 <wire x1="8.5" y1="31.7" x2="7.5" y2="29" width="0" layer="19" extent="1-1"/>
+<wire x1="12.175" y1="-25.075" x2="18.85" y2="24" width="0" layer="19" extent="1-1"/>
+<wire x1="1.775" y1="-24.635" x2="12.175" y2="-25.075" width="0" layer="19" extent="1-1"/>
+<wire x1="1.775" y1="-27.225" x2="1.775" y2="-24.635" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C4" pad="1"/>
@@ -2482,6 +2527,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="USB-ID">
 <contactref element="J1" pad="4"/>
+</signal>
+<signal name="VDD">
+<contactref element="J3" pad="4"/>
+</signal>
+<signal name="VSS">
+<contactref element="J3" pad="6"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
