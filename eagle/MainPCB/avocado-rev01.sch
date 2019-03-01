@@ -9215,6 +9215,22 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R25" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="47k"/>
 <part name="R26" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="47k"/>
 <part name="C20" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="VCC4" library="m-pad-2.1" deviceset="VCC" device=""/>
+<part name="C21" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="GND24" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
+<part name="TP2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP3" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP4" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP5" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP6" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP7" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP8" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP9" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP10" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP11" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP12" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP13" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
+<part name="TP14" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -9232,14 +9248,53 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="P3" gate="G$1" x="210.82" y="152.4" smashed="yes">
 <attribute name="NAME" x="210.82" y="147.32" size="1.778" layer="94"/>
 </instance>
-<instance part="TP1" gate="G$1" x="210.82" y="142.24" smashed="yes">
-<attribute name="NAME" x="216.662" y="142.24" size="1.778" layer="95" align="center-left"/>
+<instance part="TP1" gate="G$1" x="121.92" y="104.14" smashed="yes">
+<attribute name="NAME" x="127.762" y="104.14" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="FID1" gate="G$1" x="213.36" y="134.62" smashed="yes">
 <attribute name="NAME" x="218.44" y="134.62" size="1.27" layer="94"/>
 </instance>
 <instance part="FID2" gate="G$1" x="213.36" y="127" smashed="yes">
 <attribute name="NAME" x="218.44" y="127" size="1.27" layer="94"/>
+</instance>
+<instance part="TP2" gate="G$1" x="121.92" y="99.06" smashed="yes">
+<attribute name="NAME" x="127.762" y="99.06" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP3" gate="G$1" x="121.92" y="83.82" smashed="yes">
+<attribute name="NAME" x="127.762" y="83.82" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP4" gate="G$1" x="121.92" y="78.74" smashed="yes">
+<attribute name="NAME" x="127.762" y="78.74" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP5" gate="G$1" x="121.92" y="73.66" smashed="yes">
+<attribute name="NAME" x="127.762" y="73.66" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP6" gate="G$1" x="121.92" y="68.58" smashed="yes">
+<attribute name="NAME" x="127.762" y="68.58" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP7" gate="G$1" x="121.92" y="63.5" smashed="yes">
+<attribute name="NAME" x="127.762" y="63.5" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP8" gate="G$1" x="121.92" y="58.42" smashed="yes">
+<attribute name="NAME" x="127.762" y="58.42" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP9" gate="G$1" x="121.92" y="53.34" smashed="yes">
+<attribute name="NAME" x="127.762" y="53.34" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP10" gate="G$1" x="121.92" y="48.26" smashed="yes">
+<attribute name="NAME" x="127.762" y="48.26" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP11" gate="G$1" x="121.92" y="43.18" smashed="yes">
+<attribute name="NAME" x="127.762" y="43.18" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP12" gate="G$1" x="121.92" y="38.1" smashed="yes">
+<attribute name="NAME" x="127.762" y="38.1" size="1.778" layer="95" align="center-left"/>
+</instance>
+<instance part="TP13" gate="G$1" x="48.26" y="139.7" smashed="yes" rot="R180">
+<attribute name="NAME" x="42.418" y="139.7" size="1.778" layer="95" rot="R180" align="center-left"/>
+</instance>
+<instance part="TP14" gate="G$1" x="48.26" y="134.62" smashed="yes" rot="R180">
+<attribute name="NAME" x="42.418" y="134.62" size="1.778" layer="95" rot="R180" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -9314,6 +9369,104 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U1" gate="G$2" pin="PF5/SDC0/D2"/>
 <wire x1="116.84" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
 <label x="124.46" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PB0/UART2/TX"/>
+<wire x1="116.84" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="TP1" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PB1/UART2/RX"/>
+<wire x1="116.84" y1="99.06" x2="121.92" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="TP2" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PB6/I2C0/SCL"/>
+<wire x1="116.84" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="TP5" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PB7/I2C0/SDA"/>
+<wire x1="116.84" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="TP6" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PB8/I2C1/SCL"/>
+<wire x1="116.84" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="TP7" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$52" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PB9/I2C1/SDA"/>
+<wire x1="116.84" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="TP8" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$53" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PC0/SPI1/MISO"/>
+<wire x1="116.84" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="TP9" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$54" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PC1/SPI1/SCK"/>
+<wire x1="116.84" y1="48.26" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="TP10" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PC2/SPI1/CS"/>
+<wire x1="116.84" y1="43.18" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="TP11" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PC3/SPI1/MOSI"/>
+<wire x1="116.84" y1="38.1" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="TP12" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$57" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PB4/PWM0"/>
+<wire x1="116.84" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="TP3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$58" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PB5/PWM1"/>
+<wire x1="116.84" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="TP4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$59" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PE21/UART1/TX"/>
+<wire x1="53.34" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="TP14" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$60" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PE22/UART1/RX"/>
+<wire x1="53.34" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="TP13" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
@@ -9476,6 +9629,16 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="217.424" y="81.661" size="1.778" layer="95"/>
 <attribute name="VALUE" x="217.424" y="76.581" size="1.778" layer="96"/>
 </instance>
+<instance part="VCC4" gate="1" x="7.62" y="71.12" smashed="yes">
+<attribute name="VALUE" x="5.461" y="74.422" size="1.778" layer="96"/>
+</instance>
+<instance part="C21" gate="G$1" x="7.62" y="66.04" smashed="yes">
+<attribute name="NAME" x="9.144" y="66.421" size="1.778" layer="95"/>
+<attribute name="VALUE" x="9.144" y="61.341" size="1.778" layer="96"/>
+</instance>
+<instance part="GND24" gate="1" x="7.62" y="55.88" smashed="yes">
+<attribute name="VALUE" x="5.08" y="53.34" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9528,6 +9691,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="215.9" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="76.2" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
 <junction x="215.9" y="73.66"/>
+</segment>
+<segment>
+<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="7.62" y1="60.96" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9607,6 +9775,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="VCC1" gate="1" pin="VCC"/>
 <pinref part="D1" gate="G$1" pin="COMM_ANODE"/>
 <wire x1="233.68" y1="170.18" x2="233.68" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="VCC4" gate="1" pin="VCC"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="71.12" x2="7.62" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB-ID" class="0">
