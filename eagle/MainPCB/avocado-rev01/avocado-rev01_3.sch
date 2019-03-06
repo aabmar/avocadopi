@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:avocado-rev01-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 12095 8592
@@ -910,4 +911,8 @@ Text Label 3100 5900 0    50   ~ 0
 CK_N
 Text Label 3100 6100 0    50   ~ 0
 CK_P
+Text Label 2800 4000 0    50   ~ 0
+USB+
+Text Label 2850 3900 0    50   ~ 0
+USB-
 $EndSCHEMATC

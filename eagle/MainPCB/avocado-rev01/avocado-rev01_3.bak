@@ -277,19 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 6000 6000 6000
 Wire Wire Line
-	6000 6000 6000 6600
-Wire Wire Line
-	6000 6600 3100 6600
-Wire Wire Line
 	3300 5900 3100 5900
-Wire Wire Line
-	3100 5900 3100 6600
-Wire Wire Line
-	3300 6100 3300 6800
-Wire Wire Line
-	3300 6800 6200 6800
-Wire Wire Line
-	6200 6800 6200 6100
 Wire Wire Line
 	6200 6100 6600 6100
 Wire Wire Line
@@ -888,14 +876,6 @@ F 3 "" H 6100 7200 50  0001 C CNN
 	1    6100 7200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 6300 4800 6300
-Wire Wire Line
-	5900 6100 5900 5800
-Wire Wire Line
-	5800 5700 5800 6300
-Wire Wire Line
-	4800 6100 5900 6100
 Text Label 5600 5400 0    50   ~ 0
 DO_N
 Text Label 5700 5500 0    50   ~ 0
@@ -908,4 +888,26 @@ Wire Wire Line
 	5000 5700 4800 5700
 Wire Wire Line
 	5000 5900 4800 5900
+Text Label 5800 5700 0    50   ~ 0
+D1_N
+Text Label 5900 5800 0    50   ~ 0
+D1_P
+Text Label 6000 6000 0    50   ~ 0
+CK_N
+Text Label 6200 6100 0    50   ~ 0
+CK_P
+Wire Wire Line
+	5000 6100 4800 6100
+Wire Wire Line
+	5000 6300 4800 6300
+Wire Wire Line
+	3100 6100 3300 6100
+Text Label 5000 6100 0    50   ~ 0
+D1_P
+Text Label 5000 6300 0    50   ~ 0
+D1_N
+Text Label 3100 5900 0    50   ~ 0
+CK_N
+Text Label 3100 6100 0    50   ~ 0
+CK_P
 $EndSCHEMATC
