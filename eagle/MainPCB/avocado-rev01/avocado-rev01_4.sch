@@ -92,10 +92,6 @@ Text GLabel 5000 1700 2    70   BiDi ~ 0
 GND
 Wire Wire Line
 	4900 2500 5000 2500
-Text Label 5000 2500 0    50   ~ 0
-3V
-Text Label 5000 2500 0    70   ~ 0
-3V
 Wire Wire Line
 	4900 1500 5000 1500
 Text Label 5000 1500 0    50   ~ 0
@@ -1121,4 +1117,8 @@ Text GLabel 8250 2300 0    10   BiDi ~ 0
 GND
 Wire Wire Line
 	8250 2300 8250 2400
+Text GLabel 5000 2500 2    50   Input ~ 0
+3V
+Text GLabel 5000 1500 2    50   Input ~ 0
+3V
 $EndSCHEMATC

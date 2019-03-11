@@ -92,10 +92,6 @@ Text GLabel 5000 1700 2    70   BiDi ~ 0
 GND
 Wire Wire Line
 	4900 2500 5000 2500
-Text Label 5000 2500 0    50   ~ 0
-3V
-Text Label 5000 2500 0    70   ~ 0
-3V
 Wire Wire Line
 	4900 1500 5000 1500
 Text Label 5000 1500 0    50   ~ 0
@@ -508,78 +504,6 @@ F 3 "" H 7850 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7850 1900 1    50   BiDi ~ 0
-1V2
-Wire Wire Line
-	8050 2300 8050 2400
-Text GLabel 8050 2300 0    10   BiDi ~ 0
-GND
-Wire Wire Line
-	8050 1900 8050 2000
-$Comp
-L avocado-rev01-eagle-import:C0603 C?
-U 1 0 5C83E61B
-P 8050 2100
-AR Path="/5C83E61B" Ref="C?"  Part="1" 
-AR Path="/5C85FC69/5C83E61B" Ref="C?"  Part="1" 
-AR Path="/5C85FEFE/5C83E61B" Ref="C39"  Part="1" 
-F 0 "C39" H 8110 2115 59  0000 L BNN
-F 1 "10u" H 8110 1915 59  0000 L BNN
-F 2 "avocado-rev01:C0603" H 8050 2100 50  0001 C CNN
-F 3 "" H 8050 2100 50  0001 C CNN
-	1    8050 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L avocado-rev01-eagle-import:GND #GND?
-U 1 0 5C83E621
-P 8050 2500
-AR Path="/5C83E621" Ref="#GND?"  Part="1" 
-AR Path="/5C85FC69/5C83E621" Ref="#GND?"  Part="1" 
-AR Path="/5C85FEFE/5C83E621" Ref="#GND0106"  Part="1" 
-F 0 "#GND0106" H 8050 2500 50  0001 C CNN
-F 1 "GND" H 7950 2400 59  0000 L BNN
-F 2 "" H 8050 2500 50  0001 C CNN
-F 3 "" H 8050 2500 50  0001 C CNN
-	1    8050 2500
-	1    0    0    -1  
-$EndComp
-Text GLabel 8050 1900 1    50   BiDi ~ 0
-1V2
-Wire Wire Line
-	8250 2300 8250 2400
-Text GLabel 8250 2300 0    10   BiDi ~ 0
-GND
-Wire Wire Line
-	8250 1900 8250 2000
-$Comp
-L avocado-rev01-eagle-import:C0603 C?
-U 1 0 5C84086E
-P 8250 2100
-AR Path="/5C84086E" Ref="C?"  Part="1" 
-AR Path="/5C85FC69/5C84086E" Ref="C?"  Part="1" 
-AR Path="/5C85FEFE/5C84086E" Ref="C40"  Part="1" 
-F 0 "C40" H 8310 2115 59  0000 L BNN
-F 1 "10u" H 8310 1915 59  0000 L BNN
-F 2 "avocado-rev01:C0603" H 8250 2100 50  0001 C CNN
-F 3 "" H 8250 2100 50  0001 C CNN
-	1    8250 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L avocado-rev01-eagle-import:GND #GND?
-U 1 0 5C840874
-P 8250 2500
-AR Path="/5C840874" Ref="#GND?"  Part="1" 
-AR Path="/5C85FC69/5C840874" Ref="#GND?"  Part="1" 
-AR Path="/5C85FEFE/5C840874" Ref="#GND0107"  Part="1" 
-F 0 "#GND0107" H 8250 2500 50  0001 C CNN
-F 1 "GND" H 8150 2400 59  0000 L BNN
-F 2 "" H 8250 2500 50  0001 C CNN
-F 3 "" H 8250 2500 50  0001 C CNN
-	1    8250 2500
-	1    0    0    -1  
-$EndComp
-Text GLabel 8250 1900 1    50   BiDi ~ 0
 1V2
 Wire Wire Line
 	6850 2300 6850 2400
@@ -1157,4 +1081,44 @@ F 3 "" H 400 1900 50  0001 C CNN
 $EndComp
 Text GLabel 400  1300 1    50   BiDi ~ 0
 3V3
+Text GLabel 8250 1900 1    50   BiDi ~ 0
+1V2
+$Comp
+L avocado-rev01-eagle-import:GND #GND?
+U 1 0 5C840874
+P 8250 2500
+AR Path="/5C840874" Ref="#GND?"  Part="1" 
+AR Path="/5C85FC69/5C840874" Ref="#GND?"  Part="1" 
+AR Path="/5C85FEFE/5C840874" Ref="#GND0107"  Part="1" 
+F 0 "#GND0107" H 8250 2500 50  0001 C CNN
+F 1 "GND" H 8150 2400 59  0000 L BNN
+F 2 "" H 8250 2500 50  0001 C CNN
+F 3 "" H 8250 2500 50  0001 C CNN
+	1    8250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L avocado-rev01-eagle-import:C0603 C?
+U 1 0 5C84086E
+P 8250 2100
+AR Path="/5C84086E" Ref="C?"  Part="1" 
+AR Path="/5C85FC69/5C84086E" Ref="C?"  Part="1" 
+AR Path="/5C85FEFE/5C84086E" Ref="C40"  Part="1" 
+F 0 "C40" H 8310 2115 59  0000 L BNN
+F 1 "10u" H 8310 1915 59  0000 L BNN
+F 2 "avocado-rev01:C0603" H 8250 2100 50  0001 C CNN
+F 3 "" H 8250 2100 50  0001 C CNN
+	1    8250 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1900 8250 2000
+Text GLabel 8250 2300 0    10   BiDi ~ 0
+GND
+Wire Wire Line
+	8250 2300 8250 2400
+Text GLabel 5000 2500 2    50   Input ~ 0
+3V
+Text GLabel 5000 1500 2    50   Input ~ 0
+3V
 $EndSCHEMATC

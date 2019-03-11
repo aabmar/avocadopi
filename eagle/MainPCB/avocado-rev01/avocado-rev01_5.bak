@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 12095 8633
 encoding utf-8
-Sheet 1 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -988,4 +988,73 @@ F 3 "" H 1500 1000 50  0001 C CNN
 	1    1500 1000
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Regulator_Linear:MCP1703A-3002_SOT23 U5
+U 1 1 5C871AAE
+P 8100 2600
+F 0 "U5" H 8100 2842 50  0000 C CNN
+F 1 "XC6206P302MR" H 8100 2751 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8100 2800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf" H 8100 2550 50  0001 C CNN
+	1    8100 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 2600 0    50   BiDi ~ 0
+3V3
+Wire Wire Line
+	7800 2600 7500 2600
+$Comp
+L avocado-rev01-eagle-import:C0603 C?
+U 1 0 5C875E54
+P 8700 2700
+AR Path="/5C875E54" Ref="C?"  Part="1" 
+AR Path="/5C85FF4A/5C875E54" Ref="C?"  Part="1" 
+F 0 "C?" H 8760 2715 59  0000 L BNN
+F 1 "10u" H 8760 2515 59  0000 L BNN
+F 2 "avocado-rev01:C0603" H 8700 2700 50  0001 C CNN
+F 3 "" H 8700 2700 50  0001 C CNN
+	1    8700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L avocado-rev01-eagle-import:C0603 C?
+U 1 0 5C876EE9
+P 9050 2700
+AR Path="/5C876EE9" Ref="C?"  Part="1" 
+AR Path="/5C85FF4A/5C876EE9" Ref="C?"  Part="1" 
+F 0 "C?" H 9110 2715 59  0000 L BNN
+F 1 "10u" H 9110 2515 59  0000 L BNN
+F 2 "avocado-rev01:C0603" H 9050 2700 50  0001 C CNN
+F 3 "" H 9050 2700 50  0001 C CNN
+	1    9050 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2600 8700 2600
+Connection ~ 8700 2600
+Wire Wire Line
+	8700 2600 8400 2600
+Wire Wire Line
+	9050 2900 8700 2900
+Wire Wire Line
+	8700 2900 8100 2900
+Connection ~ 8700 2900
+Wire Wire Line
+	8100 2900 8100 3200
+Connection ~ 8100 2900
+$Comp
+L avocado-rev01-eagle-import:GND #GND?
+U 1 0 5C888656
+P 8100 3300
+AR Path="/5C888656" Ref="#GND?"  Part="1" 
+AR Path="/5C85FF4A/5C888656" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 8100 3300 50  0001 C CNN
+F 1 "GND" H 8000 3200 59  0000 L BNN
+F 2 "" H 8100 3300 50  0001 C CNN
+F 3 "" H 8100 3300 50  0001 C CNN
+	1    8100 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 9050 2600 1    50   Input ~ 0
+3V
 $EndSCHEMATC
