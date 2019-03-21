@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:avocado-rev01-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr User 12095 8592
 encoding utf-8

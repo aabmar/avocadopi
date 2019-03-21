@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:avocado-rev01-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr User 12095 8633
 encoding utf-8
@@ -989,9 +989,11 @@ F 3 "" H 1500 1000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Regulator_Linear:MCP1703A-3002_SOT23 U5
+L avocado-rev01-rescue:MCP1703A-3002_SOT23-Regulator_Linear U5
 U 1 1 5C871AAE
 P 8100 2600
+AR Path="/5C871AAE" Ref="U5"  Part="1" 
+AR Path="/5C85FF4A/5C871AAE" Ref="U5"  Part="1" 
 F 0 "U5" H 8100 2842 50  0000 C CNN
 F 1 "XC6206P302MR" H 8100 2751 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8100 2800 50  0001 C CNN
@@ -1008,8 +1010,8 @@ L avocado-rev01-eagle-import:C0603 C?
 U 1 0 5C875E54
 P 8700 2700
 AR Path="/5C875E54" Ref="C?"  Part="1" 
-AR Path="/5C85FF4A/5C875E54" Ref="C?"  Part="1" 
-F 0 "C?" H 8760 2715 59  0000 L BNN
+AR Path="/5C85FF4A/5C875E54" Ref="C39"  Part="1" 
+F 0 "C39" H 8760 2715 59  0000 L BNN
 F 1 "10u" H 8760 2515 59  0000 L BNN
 F 2 "avocado-rev01:C0603" H 8700 2700 50  0001 C CNN
 F 3 "" H 8700 2700 50  0001 C CNN
@@ -1021,8 +1023,8 @@ L avocado-rev01-eagle-import:C0603 C?
 U 1 0 5C876EE9
 P 9050 2700
 AR Path="/5C876EE9" Ref="C?"  Part="1" 
-AR Path="/5C85FF4A/5C876EE9" Ref="C?"  Part="1" 
-F 0 "C?" H 9110 2715 59  0000 L BNN
+AR Path="/5C85FF4A/5C876EE9" Ref="C45"  Part="1" 
+F 0 "C45" H 9110 2715 59  0000 L BNN
 F 1 "10u" H 9110 2515 59  0000 L BNN
 F 2 "avocado-rev01:C0603" H 9050 2700 50  0001 C CNN
 F 3 "" H 9050 2700 50  0001 C CNN
@@ -1047,8 +1049,8 @@ L avocado-rev01-eagle-import:GND #GND?
 U 1 0 5C888656
 P 8100 3300
 AR Path="/5C888656" Ref="#GND?"  Part="1" 
-AR Path="/5C85FF4A/5C888656" Ref="#GND?"  Part="1" 
-F 0 "#GND?" H 8100 3300 50  0001 C CNN
+AR Path="/5C85FF4A/5C888656" Ref="#GND0106"  Part="1" 
+F 0 "#GND0106" H 8100 3300 50  0001 C CNN
 F 1 "GND" H 8000 3200 59  0000 L BNN
 F 2 "" H 8100 3300 50  0001 C CNN
 F 3 "" H 8100 3300 50  0001 C CNN

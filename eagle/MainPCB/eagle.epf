@@ -1,6 +1,6 @@
 [Eagle]
 Version="09 03 01"
-Platform="Mac OS X"
+Platform="Windows"
 Globals="Globals"
 Desktop="Desktop"
 
@@ -14,5 +14,5 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1680 1050"
+Screen="1920 1080"
 Window="Win_1"
