@@ -9305,8 +9305,10 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.25" drill="0.35">
+<class number="0" name="default" width="0.2" drill="0.35">
 <clearance class="0" value="0.15"/>
+</class>
+<class number="1" name="diff pairs" width="0.4064" drill="0">
 </class>
 <class number="3" name="power" width="0.35" drill="0.35">
 <clearance class="3" value="0.15"/>
@@ -10491,19 +10493,21 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <wire x1="129.54" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="USBDIFF_N" class="1">
 <segment>
 <pinref part="U1" gate="G$5" pin="USB-DM"/>
 <pinref part="J1" gate="G$1" pin="DM"/>
 <wire x1="53.34" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
+<label x="40.64" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="USBDIFF_P" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="DP"/>
 <pinref part="U1" gate="G$5" pin="USB-DP"/>
 <wire x1="27.94" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="93.98" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
+<label x="40.64" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -10752,43 +10756,47 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <label x="167.64" y="170.18" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
-<net name="N$65" class="0">
+<net name="D0_N" class="0">
 <segment>
 <pinref part="P2" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="58.42" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$3" pin="MCSI-D0N"/>
 <wire x1="119.38" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
+<label x="106.68" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$66" class="0">
+<net name="D0_P" class="0">
 <segment>
 <pinref part="P2" gate="G$1" pin="3"/>
 <wire x1="144.78" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$3" pin="MCSI-D0P"/>
 <wire x1="99.06" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="50.8" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
+<label x="106.68" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$68" class="0">
+<net name="D1_N" class="0">
 <segment>
 <pinref part="P2" gate="G$1" pin="5"/>
 <wire x1="144.78" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="50.8" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$3" pin="MCSI-D1N"/>
 <wire x1="124.46" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
+<label x="106.68" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$69" class="0">
+<net name="D1_P" class="0">
 <segment>
 <pinref part="U1" gate="G$3" pin="MCSI-D1P"/>
 <wire x1="99.06" y1="40.64" x2="127" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="127" y1="40.64" x2="127" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="P2" gate="G$1" pin="6"/>
 <wire x1="127" y1="48.26" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
+<label x="106.68" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$70" class="0">
+<net name="CK_P" class="0">
 <segment>
 <pinref part="P2" gate="G$1" pin="8"/>
 <wire x1="144.78" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
@@ -10797,9 +10805,10 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="U1" gate="G$3" pin="MCSI-CKN"/>
 <wire x1="60.96" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="45.72" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
+<label x="106.68" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$72" class="0">
+<net name="CK_N" class="0">
 <segment>
 <pinref part="U1" gate="G$3" pin="MCSI-CKP"/>
 <wire x1="60.96" y1="40.64" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
@@ -10807,6 +10816,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <wire x1="134.62" y1="22.86" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="P2" gate="G$1" pin="9"/>
 <wire x1="134.62" y1="40.64" x2="144.78" y2="40.64" width="0.1524" layer="91"/>
+<label x="106.68" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAM_IO0" class="0">
