@@ -9458,10 +9458,9 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="C37" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
 <part name="C38" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
 <part name="C39" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C40" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="3V3" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
 <part name="C41" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
 <part name="C42" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C43" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
 <part name="C44" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
 <part name="C45" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
 <part name="IC2" library="AP3410" deviceset="MCP73811/2" device="" package3d_urn="urn:adsk.eagle:package:6240724/1" value="3V#">
@@ -10973,7 +10972,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <attribute name="NAME" x="176.784" y="157.861" size="1.778" layer="95"/>
 <attribute name="VALUE" x="176.784" y="152.781" size="1.778" layer="96"/>
 </instance>
-<instance part="C40" gate="G$1" x="180.34" y="157.48" smashed="yes">
+<instance part="3V3" gate="G$1" x="180.34" y="157.48" smashed="yes">
 <attribute name="NAME" x="181.864" y="157.861" size="1.778" layer="95"/>
 <attribute name="VALUE" x="181.864" y="152.781" size="1.778" layer="96"/>
 </instance>
@@ -10984,10 +10983,6 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <instance part="C42" gate="G$1" x="190.5" y="157.48" smashed="yes">
 <attribute name="NAME" x="192.024" y="157.861" size="1.778" layer="95"/>
 <attribute name="VALUE" x="192.024" y="152.781" size="1.778" layer="96"/>
-</instance>
-<instance part="C43" gate="G$1" x="195.58" y="157.48" smashed="yes">
-<attribute name="NAME" x="197.104" y="157.861" size="1.778" layer="95"/>
-<attribute name="VALUE" x="197.104" y="152.781" size="1.778" layer="96"/>
 </instance>
 <instance part="C44" gate="G$1" x="200.66" y="157.48" smashed="yes">
 <attribute name="NAME" x="202.184" y="157.861" size="1.778" layer="95"/>
@@ -11072,18 +11067,15 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="C39" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="160.02" x2="180.34" y2="160.02" width="0.1524" layer="91"/>
 <junction x="175.26" y="160.02"/>
-<pinref part="C40" gate="G$1" pin="1"/>
+<pinref part="3V3" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="160.02" x2="185.42" y2="160.02" width="0.1524" layer="91"/>
 <junction x="180.34" y="160.02"/>
 <pinref part="C41" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="160.02" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
 <junction x="185.42" y="160.02"/>
 <pinref part="C42" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="160.02" x2="195.58" y2="160.02" width="0.1524" layer="91"/>
 <junction x="190.5" y="160.02"/>
-<pinref part="C43" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="160.02" x2="200.66" y2="160.02" width="0.1524" layer="91"/>
-<junction x="195.58" y="160.02"/>
+<wire x1="190.5" y1="160.02" x2="200.66" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="C44" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="160.02" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
 <junction x="200.66" y="160.02"/>
@@ -11120,25 +11112,21 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="C39" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="152.4" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
 <junction x="175.26" y="152.4"/>
-<pinref part="C40" gate="G$1" pin="2"/>
+<pinref part="3V3" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="152.4" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
 <junction x="180.34" y="152.4"/>
 <pinref part="C41" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="152.4" x2="190.5" y2="152.4" width="0.1524" layer="91"/>
 <junction x="185.42" y="152.4"/>
-<wire x1="190.5" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
 <junction x="190.5" y="152.4"/>
-<pinref part="C43" gate="G$1" pin="2"/>
 <pinref part="C45" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="152.4" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="152.4" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="C44" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
 <junction x="200.66" y="152.4"/>
 <junction x="205.74" y="152.4"/>
 <junction x="165.1" y="152.4"/>
-<wire x1="195.58" y1="152.4" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
-<junction x="195.58" y="152.4"/>
+<wire x1="205.74" y1="152.4" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
 <label x="185.42" y="152.4" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
