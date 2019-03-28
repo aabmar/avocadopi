@@ -9305,13 +9305,13 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.25" drill="0.35">
+<class number="0" name="default" width="0.2" drill="0.35">
 <clearance class="0" value="0.15"/>
 </class>
 <class number="1" name="MIPI" width="0.15" drill="0.35">
 <clearance class="1" value="0.1"/>
 </class>
-<class number="3" name="power" width="0.35" drill="0.35">
+<class number="3" name="power" width="0.25" drill="0.35">
 <clearance class="3" value="0.15"/>
 </class>
 </classes>
@@ -9753,18 +9753,20 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="MOSI" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$57" class="0">
+<net name="LEDD0" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="PB4/PWM0"/>
 <wire x1="116.84" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="PWM0" gate="G$1" pin="2"/>
+<label x="121.92" y="83.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$58" class="0">
+<net name="LEDD1" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="PB5/PWM1"/>
 <wire x1="116.84" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="PWM1" gate="G$1" pin="2"/>
+<label x="121.92" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -11369,7 +11371,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <label x="167.64" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$13" class="3">
+<net name="N$13" class="0">
 <segment>
 <pinref part="U1" gate="G$6" pin="VCC-RTC"/>
 <wire x1="101.6" y1="152.4" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
