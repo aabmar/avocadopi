@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div class="status">
+            <h1>Status</h1>
+        </div>
+        
+        <button onclick="startClickFunction()">
+            start
+        </button>
+        <button>
+            Pause
+        </button>
+        <button>
+            stop
+        </button>
+
+        
+
+        <br>
+        <p id="test"></p>
+        <br>
+        <div id="app">
+            <input type="file" id="file" ref="file" v-on:change="handleFileUpload()" />
+            <button v-on:click="submitFile()">Submit</button>
+        </div>
+        
+    </body>
+
+    <style>
+        
+    </style>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script>
+        // const axios = require('axios');
+       
+        function startClickFunction(){
+            var x = document.getElementById("test");
+            x.innerHTML = "Start ble trykket";
+            
+        }
+
+        function uploadFunction(){
+
+            var x = document.getElementById("myFile");
+            if ('files' in x) {
+                console.log(x.files);
+            }
+            
+        }
+
+        var app = new Vue({
+                el: "#app",
+                data: {
+                    file: ''
+                },
+                methods: {
+                    submitFile() {
+                        let formData = new FormData();
+                        formData.append('file', this.file);
+                        console.log('>> formData >> ', formData);
+
+                        // You should have a server side REST API 
+                        axios.post('http://localhost:5000/file',
+                            formData, {
+                                headers: {
+                                    'Access-Control-Allow-Origin': '*',
+                                    'Content-Type': 'multipart/form-data'
+                                }
+                            }
+                        ).then(function () {
+                            console.log('SUCCESS!!');
+                        })
+                        .catch(function () {
+                            console.log('FAILURE!!');
+                        });
+                    },
+                    handleFileUpload() {
+                        this.file = this.$refs.file.files[0];
+                        console.log('>>>> 1st element in files array >>>> ', this.file);
+                    }
+                }
+            });
+    </script>
+</html>
