@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-04-25T18:14:10Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.536,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "avocado-rev01"
+        },
+        "Owner": "Marius Aabel <marius@aabel.net>",
+        "Size": {
+            "X": 100,
+            "Y": 60
+        }
+    }
+}
