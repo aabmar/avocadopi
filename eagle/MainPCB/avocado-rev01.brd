@@ -191,6 +191,16 @@
 <wire x1="100" y1="0" x2="100" y2="60" width="0" layer="20"/>
 <wire x1="100" y1="60" x2="0" y2="60" width="0" layer="20"/>
 <wire x1="0" y1="60" x2="0" y2="0" width="0" layer="20"/>
+<text x="61.25" y="21.75" size="1" layer="25">GND
+RX
+TX</text>
+<wire x1="62.25" y1="26" x2="62.25" y2="27.75" width="0.1524" layer="25"/>
+<wire x1="62.25" y1="27.75" x2="63" y2="27" width="0.1524" layer="25"/>
+<wire x1="62.25" y1="27.75" x2="61.5" y2="27" width="0.1524" layer="25"/>
+<wire x1="61" y1="26" x2="64" y2="26" width="0.1524" layer="25"/>
+<wire x1="64" y1="26" x2="64" y2="21.5" width="0.1524" layer="25"/>
+<wire x1="64" y1="21.5" x2="61" y2="21.5" width="0.1524" layer="25"/>
+<wire x1="61" y1="21.5" x2="61" y2="26" width="0.1524" layer="25"/>
 </plain>
 <libraries>
 <library name="marius" urn="urn:adsk.eagle:library:5910807">
@@ -2348,15 +2358,15 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="75.912490625" y="30.988859375" size="1.779790625" layer="27" rot="R180"/>
 </element>
 <element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="" x="68.45" y="27" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.335" y="27.735" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="68.335" y="25.735" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="66.545" y="27.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="" x="67.35" y="27" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.785" y="27.585" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="67.035" y="25.585" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="65.445" y="27.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="" x="66.25" y="27" smashed="yes" rot="R270">
-<attribute name="NAME" x="60.235" y="27.685" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="65.735" y="25.685" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="64.345" y="27.635" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="P2" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="686115148922" package3d_urn="urn:adsk.eagle:package:5911100/1" value="CONNECTOR-15686115148922" x="3" y="35" smashed="yes" rot="MR90">
@@ -2469,7 +2479,7 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="16.035" y="9.395" size="0.7" layer="27" rot="R180"/>
 </element>
 <element name="R12" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="R0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="100k" x="10.15" y="11.74" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.535" y="12.105" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="8.285" y="10.855" size="0.8" layer="25" rot="R180"/>
 <attribute name="VALUE" x="10.785" y="13.645" size="0.7" layer="27" rot="R180"/>
 </element>
 <element name="R13" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="R0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="59k" x="10.15" y="8.24" smashed="yes">
@@ -2477,7 +2487,7 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="9.515" y="6.335" size="0.7" layer="27"/>
 </element>
 <element name="R14" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="R0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="CALC" x="10.15" y="9.99" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.535" y="10.355" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="8.285" y="9.605" size="0.8" layer="25" rot="R180"/>
 <attribute name="VALUE" x="10.785" y="11.895" size="0.7" layer="27" rot="R180"/>
 </element>
 <element name="R15" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="R0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="CALC" x="10.15" y="6.49" smashed="yes">
@@ -2485,7 +2495,7 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="9.515" y="4.585" size="0.7" layer="27"/>
 </element>
 <element name="C17" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="CAP4.3X6.1" package3d_urn="urn:adsk.eagle:package:5911014/1" value="22u" x="15.75" y="4" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.921" y="4.4734" size="0.8" layer="25" ratio="10" rot="SR180"/>
+<attribute name="NAME" x="19.5266" y="3.171" size="0.8" layer="25" ratio="10" rot="SR270"/>
 <attribute name="VALUE" x="18.7472" y="8.1656" size="1" layer="27" ratio="10" rot="SR180"/>
 </element>
 <element name="C18" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="CAP4.3X6.1" package3d_urn="urn:adsk.eagle:package:5911014/1" value="22u" x="13" y="16.5" smashed="yes" rot="R180">
@@ -2505,7 +2515,7 @@ Your Eurocircuits Team
 <attribute name="NAME" x="11.085" y="41.565" size="0.8" layer="25" rot="R180"/>
 </element>
 <element name="TX2" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="TEST_TESTPOINT" package3d_urn="urn:adsk.eagle:package:5911110/1" value="TEST_TESTPOINT" x="54.2" y="23.55" smashed="yes" rot="R270">
-<attribute name="NAME" x="53.565" y="23.55" size="0.8" layer="25" rot="R180" align="center-left"/>
+<attribute name="NAME" x="54.935" y="23.45" size="0.8" layer="25" align="center-left"/>
 <attribute name="X" value="X" x="54.2" y="23.55" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="FID1" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="FIDUCIAL_1MM" package3d_urn="urn:adsk.eagle:package:5911034/1" value="FIDUCIAL" x="2" y="58" smashed="yes">
@@ -2526,15 +2536,15 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="76.112490625" y="25.938859375" size="1.779790625" layer="27" rot="R180"/>
 </element>
 <element name="R17" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="" x="66.5" y="22.15" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.585" y="23.785" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="66.085" y="20.285" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="64.595" y="22.785" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R18" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="" x="67.55" y="22.15" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.535" y="23.835" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="67.285" y="20.085" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="65.645" y="22.785" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="" x="68.65" y="22.15" smashed="yes" rot="R270">
-<attribute name="NAME" x="59.635" y="23.835" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="68.635" y="20.085" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="66.745" y="22.785" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="10k" x="8.6" y="14.2" smashed="yes" rot="R90">
@@ -2562,7 +2572,7 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="3.645" y="24.435" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R26" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="R0402" package3d_urn="urn:adsk.eagle:package:5911053/1" value="47k" x="7.85" y="22.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="7.485" y="27.935" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="8.235" y="20.685" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="5.945" y="22.935" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C20" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u" x="7.85" y="24.25" smashed="yes">
@@ -2573,7 +2583,7 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="4.785" y="11.805" size="0.7" layer="27" rot="R180"/>
 </element>
 <element name="RX2" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="TEST_TESTPOINT" package3d_urn="urn:adsk.eagle:package:5911110/1" value="TEST_TESTPOINT" x="54.2" y="25.55" smashed="yes" rot="R180">
-<attribute name="NAME" x="53.565" y="25.55" size="0.8" layer="25" rot="R180" align="center-left"/>
+<attribute name="NAME" x="54.935" y="25.2" size="0.8" layer="25" align="center-left"/>
 <attribute name="X" value="X" x="54.2" y="25.55" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="PWM0" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="TEST_TESTPOINT" package3d_urn="urn:adsk.eagle:package:5911110/1" value="TEST_TESTPOINT" x="52.2" y="28.55" smashed="yes" rot="R180">
@@ -2585,11 +2595,11 @@ Your Eurocircuits Team
 <attribute name="X" value="X" x="52.2" y="30.55" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SCL0" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="TEST_TESTPOINT" package3d_urn="urn:adsk.eagle:package:5911110/1" value="TEST_TESTPOINT" x="54.2" y="27.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="53.565" y="27.7" size="0.8" layer="25" rot="R180" align="center-left"/>
+<attribute name="NAME" x="55.3" y="28.815" size="0.8" layer="25" rot="R270" align="center-left"/>
 <attribute name="X" value="X" x="54.2" y="27.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="SDA0" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="TEST_TESTPOINT" package3d_urn="urn:adsk.eagle:package:5911110/1" value="TEST_TESTPOINT" x="54.2" y="29.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="53.565" y="29.7" size="0.8" layer="25" rot="R180" align="center-left"/>
+<attribute name="NAME" x="55.565" y="30.7" size="0.8" layer="25" rot="R180" align="center-left"/>
 <attribute name="X" value="X" x="54.2" y="29.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="MISO" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="TEST_TESTPOINT" package3d_urn="urn:adsk.eagle:package:5911110/1" value="TEST_TESTPOINT" x="38.3" y="27.75" smashed="yes">
@@ -2609,35 +2619,35 @@ Your Eurocircuits Team
 <attribute name="X" value="X" x="38.3" y="34" size="1.778" layer="27" display="off"/>
 </element>
 <element name="RX1" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="TEST_TESTPOINT" package3d_urn="urn:adsk.eagle:package:5911110/1" value="TEST_TESTPOINT" x="52.2" y="24.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="51.565" y="24.3" size="0.8" layer="25" rot="R180" align="center-left"/>
+<attribute name="NAME" x="50.815" y="24.3" size="0.8" layer="25" rot="R180" align="center-left"/>
 <attribute name="X" value="X" x="52.2" y="24.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TX1" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="TEST_TESTPOINT" package3d_urn="urn:adsk.eagle:package:5911110/1" value="TEST_TESTPOINT" x="52.2" y="26.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="51.565" y="26.3" size="0.8" layer="25" rot="R180" align="center-left"/>
+<attribute name="NAME" x="50.815" y="26.3" size="0.8" layer="25" rot="R180" align="center-left"/>
 <attribute name="X" value="X" x="52.2" y="26.3" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R27" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="2k" x="56.95" y="27.45" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.585" y="27.815" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="57.585" y="26.565" size="0.8" layer="25" rot="R180"/>
 <attribute name="VALUE" x="57.585" y="29.355" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="2k" x="56.95" y="29.45" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.585" y="29.815" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="60.335" y="29.815" size="0.8" layer="25" rot="R180"/>
 <attribute name="VALUE" x="57.585" y="31.355" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="NC2k" x="56.95" y="31.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.585" y="32.065" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="60.335" y="32.065" size="0.8" layer="25" rot="R180"/>
 <attribute name="VALUE" x="57.585" y="33.605" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="NC2k" x="56.95" y="33.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="62.585" y="34.065" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="60.335" y="34.065" size="0.8" layer="25" rot="R180"/>
 <attribute name="VALUE" x="57.585" y="35.605" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="5V" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="PAD" package3d_urn="urn:adsk.eagle:package:5911125/1" value="PADTH" x="5" y="8.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="5.73" y="10.835" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="4.915" y="6.73" size="0.8" layer="25" rot="R270"/>
 <attribute name="X" value="X" x="5" y="8.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="GND" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="PAD" package3d_urn="urn:adsk.eagle:package:5911125/1" value="PADTH" x="3" y="8.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.73" y="10.835" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="3.165" y="6.73" size="0.8" layer="25" rot="R270"/>
 <attribute name="X" value="X" x="3" y="8.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="CAMIO1" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="TEST_TESTPOINT" package3d_urn="urn:adsk.eagle:package:5911110/1" value="TEST_TESTPOINT" x="7.2" y="56.45" smashed="yes" rot="R270">
@@ -2752,17 +2762,17 @@ Your Eurocircuits Team
 </element>
 <element name="IC2" library="AP3410" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:6240724/1" value="3V#" x="94.45" y="7.9" smashed="yes" rot="R180">
 <attribute name="MPN" value="AP3410KTR-G1 " x="94.45" y="7.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="96.355" y="5.995" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="91.105" y="6.245" size="0.8" layer="25" rot="R180"/>
 <attribute name="VALUE" x="96.355" y="11.329" size="1.27" layer="27" rot="R180"/>
 <attribute name="VOLTAGE" value="3V3" x="94.45" y="7.9" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L7" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="ASPI-4030S-253675" package3d_urn="urn:adsk.eagle:package:5911044/1" value="2.2uH-DCR&lt;0.1R-1.5A" x="94.45" y="12.1" smashed="yes" rot="R90">
 <attribute name="MOUSER" value=" LVF404018-2R2M-N" x="94.45" y="12.1" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value=" LVF404018-2R2M-N" x="94.45" y="12.1" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="91.6" y="11.3" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="97.6" y="10.55" size="0.8" layer="25" rot="R90"/>
 </element>
 <element name="R40" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="470K-1%" x="96.6" y="4.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="97.235" y="5.135" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="96.485" y="2.635" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="94.695" y="5.335" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R41" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="100K-1%" x="96.45" y="7.9" smashed="yes" rot="R90">
@@ -2770,15 +2780,15 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="98.355" y="7.265" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C69" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="4u7" x="91.65" y="12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="91.015" y="12.065" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="92.015" y="14.565" size="0.8" layer="25" rot="R90"/>
 <attribute name="VALUE" x="93.555" y="12.065" size="0.7" layer="27" rot="R90"/>
 </element>
 <element name="C70" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="47p" x="95.25" y="4.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="95.885" y="5.135" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="94.885" y="2.385" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="93.345" y="4.935" size="0.7" layer="27" rot="R270"/>
 </element>
 <element name="C71" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u" x="90.05" y="12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="89.415" y="12.065" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="88.915" y="11.065" size="0.8" layer="25" rot="R90"/>
 <attribute name="VALUE" x="91.955" y="12.065" size="0.7" layer="27" rot="R90"/>
 </element>
 <element name="C72" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u" x="92.25" y="7.5" smashed="yes" rot="R90">
@@ -2825,33 +2835,33 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="20" y="18.8001" size="0.02" layer="27" rot="R90"/>
 </element>
 <element name="IC5" library="AP3410" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:6240724/1" value="3V#" x="30" y="8.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.905" y="6.695" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="27.155" y="10.445" size="0.8" layer="25" rot="R180"/>
 <attribute name="VALUE" x="31.905" y="12.029" size="1.27" layer="27" rot="R180"/>
 <attribute name="VOLTAGE" value="1V2" x="30" y="8.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L6" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="ASPI-4030S-253675" package3d_urn="urn:adsk.eagle:package:5911044/1" value="2.2uH-DCR&lt;0.1R-1.5A" x="30" y="12.8" smashed="yes" rot="R90">
 <attribute name="MOUSER" value=" LVF404018-2R2M-N" x="30" y="12.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value=" LVF404018-2R2M-N" x="30" y="12.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="27.15" y="12" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="33.15" y="14.5" size="0.8" layer="25" rot="R90"/>
 </element>
 <element name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="100K-1%" x="32.1" y="5.15" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.735" y="5.785" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="31.985" y="3.285" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="30.195" y="5.985" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R36" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="100K-1%" x="32" y="8.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.365" y="7.965" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="33.865" y="7.965" size="0.8" layer="25" rot="R90"/>
 <attribute name="VALUE" x="33.905" y="7.965" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C54" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="4u7" x="27.2" y="13.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.565" y="12.765" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="27.815" y="15.265" size="0.8" layer="25" rot="R90"/>
 <attribute name="VALUE" x="29.105" y="12.765" size="0.7" layer="27" rot="R90"/>
 </element>
 <element name="C55" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="47p" x="30.8" y="5" smashed="yes" rot="R270">
-<attribute name="NAME" x="31.435" y="5.835" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="30.185" y="3.085" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="28.895" y="5.635" size="0.7" layer="27" rot="R270"/>
 </element>
 <element name="C56" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u" x="25.6" y="13.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.965" y="12.765" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="24.285" y="11.735" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="27.505" y="12.765" size="0.7" layer="27" rot="R90"/>
 </element>
 <element name="C57" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u" x="27.8" y="8.2" smashed="yes" rot="R90">
@@ -2864,17 +2874,17 @@ Your Eurocircuits Team
 </element>
 <element name="IC6" library="AP3410" package="SOT23-5L" package3d_urn="urn:adsk.eagle:package:6240724/1" value="" x="60.55" y="8.55" smashed="yes" rot="R180">
 <attribute name="MPN" value="AP3410KTR-G1 " x="60.55" y="8.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="62.455" y="6.645" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="57.455" y="10.645" size="0.8" layer="25" rot="R180"/>
 <attribute name="VALUE" x="62.455" y="11.979" size="1.27" layer="27" rot="R180"/>
 <attribute name="VOLTAGE" value="1V8" x="60.55" y="8.55" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L9" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="ASPI-4030S-253675" package3d_urn="urn:adsk.eagle:package:5911044/1" value="2.2uH-DCR&lt;0.1R-1.5A" x="60.55" y="12.75" smashed="yes" rot="R90">
 <attribute name="MOUSER" value=" LVF404018-2R2M-N" x="60.55" y="12.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value=" LVF404018-2R2M-N" x="60.55" y="12.75" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="57.7" y="11.95" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="63.7" y="12.7" size="0.8" layer="25" rot="R90"/>
 </element>
 <element name="R37" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="200K-1%" x="62.65" y="5.05" smashed="yes" rot="R270">
-<attribute name="NAME" x="63.285" y="5.685" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="62.285" y="3.185" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="60.745" y="5.885" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="100K-1%" x="62.55" y="8.55" smashed="yes" rot="R90">
@@ -2882,15 +2892,15 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="64.455" y="7.915" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C58" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="4u7" x="57.75" y="13.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="57.115" y="12.715" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="58.365" y="15.465" size="0.8" layer="25" rot="R90"/>
 <attribute name="VALUE" x="59.655" y="12.715" size="0.7" layer="27" rot="R90"/>
 </element>
 <element name="C59" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="47p" x="61.35" y="4.95" smashed="yes" rot="R270">
-<attribute name="NAME" x="61.985" y="5.785" size="0.8" layer="25" rot="R270"/>
+<attribute name="NAME" x="60.735" y="3.285" size="0.8" layer="25" rot="R270"/>
 <attribute name="VALUE" x="59.445" y="5.585" size="0.7" layer="27" rot="R270"/>
 </element>
 <element name="C60" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u" x="56.15" y="13.35" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.515" y="12.715" size="0.8" layer="25" rot="R90"/>
+<attribute name="NAME" x="55.265" y="12.965" size="0.8" layer="25" rot="R90"/>
 <attribute name="VALUE" x="58.055" y="12.715" size="0.7" layer="27" rot="R90"/>
 </element>
 <element name="C61" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u" x="58.35" y="8.15" smashed="yes" rot="R90">
@@ -2931,15 +2941,15 @@ Your Eurocircuits Team
 <attribute name="VALUE" x="65.779790625" y="40.1264" size="2.03843125" layer="28" ratio="13" rot="SMR0"/>
 </element>
 <element name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="51(NC)" x="68.75" y="52.25" smashed="yes">
-<attribute name="NAME" x="68.115" y="52.885" size="0.8" layer="25"/>
+<attribute name="NAME" x="71.365" y="52.135" size="0.8" layer="25"/>
 <attribute name="VALUE" x="68.115" y="50.345" size="1.27" layer="27"/>
 </element>
 <element name="R33" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="51(NC)" x="68.75" y="51" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.385" y="50.365" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="71.365" y="50.635" size="0.8" layer="25"/>
 <attribute name="VALUE" x="69.385" y="52.905" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R34" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="51(NC)" x="68.75" y="49.75" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.385" y="49.115" size="0.8" layer="25" rot="R180"/>
+<attribute name="NAME" x="71.115" y="49.385" size="0.8" layer="25"/>
 <attribute name="VALUE" x="69.385" y="51.655" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R39" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="51(NC)" x="68.75" y="43.25" smashed="yes" rot="R180">
@@ -2948,14 +2958,14 @@ Your Eurocircuits Team
 </element>
 <element name="L4" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="R0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="10uH(NC)" x="68.75" y="46.5" smashed="yes" rot="R180">
 <attribute name="MPN" value=" LVF404018-2R2M-N" x="68.75" y="46.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="70.75" y="49.5" size="0.8" layer="21" rot="R180"/>
+<attribute name="NAME" x="71.75" y="46" size="0.8" layer="21"/>
 </element>
 <element name="C47" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u" x="68.75" y="44.75" smashed="yes">
-<attribute name="NAME" x="68.115" y="45.385" size="0.8" layer="25"/>
+<attribute name="NAME" x="71.615" y="44.635" size="0.8" layer="25"/>
 <attribute name="VALUE" x="68.115" y="42.845" size="0.7" layer="27"/>
 </element>
 <element name="C48" library="marius" library_urn="urn:adsk.eagle:library:5910807" package="C0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u" x="68.75" y="48.25" smashed="yes">
-<attribute name="NAME" x="68.115" y="48.885" size="0.8" layer="25"/>
+<attribute name="NAME" x="71.365" y="47.885" size="0.8" layer="25"/>
 <attribute name="VALUE" x="68.115" y="46.345" size="0.7" layer="27"/>
 </element>
 <element name="R42" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="6K-1%" x="11.75" y="44.25" smashed="yes">
@@ -6153,6 +6163,10 @@ Your Eurocircuits Team
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
