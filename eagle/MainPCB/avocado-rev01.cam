@@ -1,0 +1,369 @@
+{
+    "author": {
+        "email": "marius@aabel.net",
+        "name": "Marius Aabel"
+    },
+    "description": {
+        "EN": "CAM job description goes here."
+    },
+    "output_type": "directory",
+    "outputs": [
+        {
+            "filename_prefix": "CAMOutputs/GerberFiles",
+            "format_specifier": {
+                "decimal": 4,
+                "integer": 3
+            },
+            "generate_job_file": true,
+            "output_type": "gerber",
+            "outputs": [
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Assembly TOP",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/assembly_top.gerber",
+                    "layers": [
+                        20,
+                        21,
+                        23,
+                        25,
+                        47,
+                        51
+                    ],
+                    "milling": false,
+                    "name": "Assembly TOP",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": true,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Assembly mirrored BOT",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/assembly_mirrored_bot.gerber",
+                    "layers": [
+                        20,
+                        22,
+                        24,
+                        26,
+                        52
+                    ],
+                    "milling": false,
+                    "name": "Assembly mirrored BOT",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Copper 1 TOP",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/copper_1_top.gerber",
+                    "layers": [
+                        1,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "Copper 1 TOP",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Copper 2",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/copper_2.gerber",
+                    "layers": [
+                        2,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "Copper 2",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Copper 3",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/copper_3.gerber",
+                    "layers": [
+                        3,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "Copper 3",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Copper 4 BOT",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/copper_4_bottom.gerber",
+                    "layers": [
+                        16,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "Copper 4 BOT",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Dimension",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/dimension.gerber",
+                    "layers": [
+                        20
+                    ],
+                    "milling": false,
+                    "name": "Dimension",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Milling",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/milling.gerber",
+                    "layers": [
+                        46
+                    ],
+                    "milling": false,
+                    "name": "Milling",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Silk TOP",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/silk_top.gerber",
+                    "layers": [
+                        21,
+                        25
+                    ],
+                    "milling": false,
+                    "name": "Silk TOP",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Silk BOT",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/silk_bot.gerber",
+                    "layers": [
+                        22,
+                        26
+                    ],
+                    "milling": false,
+                    "name": "Silk BOT",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Stop Mask TOP",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/stop_mask_top.gerber",
+                    "layers": [
+                        29
+                    ],
+                    "milling": false,
+                    "name": "Stop Mask TOP",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Stop mask BOT",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/stop_mask_bottom.gerber",
+                    "layers": [
+                        30
+                    ],
+                    "milling": false,
+                    "name": "Stop mask BOT",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "description": "Cream TOP",
+                        "file_function": "Other"
+                    },
+                    "filename_format": "%PREFIX/cream_top.gerber",
+                    "layers": [
+                        31
+                    ],
+                    "milling": false,
+                    "name": "Cream TOP",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                }
+            ],
+            "version": "RS274X"
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrillFiles",
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "%DRILLPREFIX/drills_%FROM_%TO.xln",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Excellon 1 - 16",
+                    "type": "excellon"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/Assembly",
+            "output_type": "assembly",
+            "outputs": [
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrawingFiles",
+            "output_type": "drawing",
+            "outputs": [
+            ]
+        }
+    ],
+    "timestamp": "2019-04-25T20:25:49",
+    "type": "EAGLE CAM job",
+    "units": "metric",
+    "version": "9.2.0"
+}

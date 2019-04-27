@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1258,6 +1258,112 @@ WR-COM_USB_Micro Type B_Horizontal_SMT Micro Type B Horizontal SMT - 3A current 
 <wire x1="3.72" y1="-3.35" x2="3.6" y2="-3.23" width="0.127" layer="46" curve="-90"/>
 <wire x1="4.15" y1="-3.23" x2="4.03" y2="-3.35" width="0.127" layer="46" curve="-90"/>
 </package>
+<package name="JST-XH-3" urn="urn:adsk.eagle:footprint:5910952/1" library_version="25">
+<description>3-pin JST PH Shrouded Header &lt;br&gt;
+						2.0mm pitch &lt;br&gt;
+						P/N B3B-PH-K-S. Mating plug PHR-3 &lt;br&gt;</description>
+<pad name="P3" x="-2.4725" y="0.0475" drill="1" shape="long" rot="R90"/>
+<pad name="P2" x="0.0275" y="0.0475" drill="1" shape="long" rot="R90"/>
+<pad name="P1" x="2.5275" y="0.0475" drill="1" shape="long" rot="R90"/>
+<wire x1="-5.0225" y1="2.8825" x2="5.0275" y2="2.8825" width="0.127" layer="21"/>
+<wire x1="5.0275" y1="2.8825" x2="5.0275" y2="-2.9175" width="0.127" layer="21"/>
+<wire x1="5.0275" y1="-2.9175" x2="-5.0225" y2="-2.9175" width="0.127" layer="21"/>
+<wire x1="-5.0225" y1="-2.9175" x2="-5.0225" y2="2.8825" width="0.127" layer="21"/>
+<rectangle x1="-1.9725" y1="-2.8675" x2="2.0275" y2="-2.3675" layer="21"/>
+<text x="-4.8725" y="3.0825" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="5.345" y="-2.735" size="0.8128" layer="21" font="vector">1</text>
+</package>
+<package name="HEADER-3" urn="urn:adsk.eagle:footprint:5910953/2" library_version="25">
+<description>5-pin JST PH Shrouded Header &lt;br&gt;
+						2.0mm pitch &lt;br&gt;
+						P/N B5B-PH-K-S. Mating plug PHR-5 &lt;br&gt;</description>
+<pad name="3" x="2.54" y="0.0475" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-0.04" y="0.0475" drill="1" shape="long" rot="R90"/>
+<pad name="1" x="-2.62" y="0.0475" drill="1" shape="long" rot="R90"/>
+<text x="-3.59" y="-3.1675" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.185" y="2.175" size="0.8128" layer="21" font="vector">1</text>
+<wire x1="-3.81" y1="1.905" x2="3.81" y2="1.905" width="0.127" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="-3.81" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.127" layer="21"/>
+</package>
+<package name="JST-MOLEX-MULTI-3" urn="urn:adsk.eagle:footprint:5910954/1" library_version="25">
+<description>3-pin JST PH Shrouded Header &lt;br&gt;
+						2.0mm pitch &lt;br&gt;
+						P/N B3B-PH-K-S. Mating plug PHR-3 &lt;br&gt;</description>
+<pad name="J3" x="-2.5" y="0" drill="1" rot="R90"/>
+<pad name="J2" x="0" y="0" drill="1" rot="R90"/>
+<pad name="J1" x="2.5" y="0" drill="1" rot="R90"/>
+<pad name="M1" x="4.5" y="2" drill="1.2" rot="R90"/>
+<pad name="M2" x="1.5" y="2" drill="1.2" rot="R90"/>
+<pad name="M3" x="-1.5" y="2" drill="1.2" rot="R90"/>
+<wire x1="-5.0225" y1="2.8825" x2="5.0275" y2="2.8825" width="0.127" layer="21"/>
+<wire x1="5.0275" y1="2.8825" x2="5.0275" y2="-2.9175" width="0.127" layer="21"/>
+<wire x1="5.0275" y1="-2.9175" x2="-5.0225" y2="-2.9175" width="0.127" layer="21"/>
+<wire x1="-5.0225" y1="-2.9175" x2="-5.0225" y2="2.8825" width="0.127" layer="21"/>
+<rectangle x1="-1.9725" y1="-2.8675" x2="2.0275" y2="-2.3675" layer="21"/>
+<text x="-4.8725" y="3.0825" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="5.045" y="-4.435" size="0.8128" layer="21" font="vector">1</text>
+<text x="-5.455" y="-4.435" size="0.8128" layer="21" font="vector">3</text>
+<hole x="1.5" y="-2.52" drill="3"/>
+</package>
+<package name="MOLEX-SLIMFIT-3" urn="urn:adsk.eagle:footprint:5910955/1" library_version="25">
+<description>3-pin JST PH Shrouded Header &lt;br&gt;
+						2.0mm pitch &lt;br&gt;
+						P/N B3B-PH-K-S. Mating plug PHR-3 &lt;br&gt;</description>
+<wire x1="-6.4" y1="5.3" x2="-3.9" y2="5.3" width="0.127" layer="21"/>
+<wire x1="4" y1="5.3" x2="6.4" y2="5.3" width="0.127" layer="21"/>
+<wire x1="6.4" y1="5.3" x2="6.4" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="6.4" y1="-4.6" x2="-6.4" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="-6.4" y1="-4.6" x2="-6.4" y2="5.3" width="0.127" layer="21"/>
+<text x="-6.3725" y="5.6025" size="0.8128" layer="25" font="vector">&gt;NAME</text>
+<text x="6.7" y="4.5" size="0.8128" layer="21" font="vector">1</text>
+<text x="-7.2" y="4.4" size="0.8128" layer="21" font="vector">3</text>
+<pad name="M1" x="3" y="4.32" drill="1.2" rot="R90"/>
+<pad name="M2" x="0" y="4.32" drill="1.2" rot="R90"/>
+<pad name="M3" x="-3" y="4.32" drill="1.2" rot="R90"/>
+<hole x="0" y="0" drill="3"/>
+</package>
+<package name="JST-XH-3-SMT" urn="urn:adsk.eagle:footprint:5910956/1" library_version="25">
+<smd name="1" x="-2.5" y="2.25" dx="1.3" dy="4.5" layer="1"/>
+<smd name="2" x="0" y="2.25" dx="1.3" dy="4.5" layer="1"/>
+<smd name="3" x="2.5" y="2.25" dx="1.3" dy="4.5" layer="1"/>
+<smd name="P2" x="5.7" y="-4.55" dx="1.8" dy="3.9" layer="1"/>
+<smd name="P1" x="-5.7" y="-4.55" dx="1.8" dy="3.9" layer="1"/>
+<wire x1="-6.25" y1="1.5" x2="-3.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="1.5" x2="6.25" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="1.5" x2="-6.25" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-5.5" x2="4.5" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="6.25" y1="-2.25" x2="6.25" y2="1.5" width="0.127" layer="21"/>
+<text x="7.5" y="-1.75" size="0.7" layer="21" rot="R90">&gt;name</text>
+<text x="-6.25" y="2" size="0.7" layer="21">1</text>
+</package>
+<package name="NPTC031KFXC-RC" urn="urn:adsk.eagle:footprint:5910957/1" library_version="25">
+<smd name="P$1" x="-2.54" y="1.65" dx="1" dy="2" layer="1"/>
+<smd name="P$2" x="0" y="-1.65" dx="1" dy="2" layer="1"/>
+<smd name="P$3" x="2.54" y="1.65" dx="1" dy="2" layer="1"/>
+<wire x1="-3.91" y1="0.49" x2="3.91" y2="0.49" width="0.127" layer="21"/>
+<wire x1="-3.91" y1="-0.49" x2="3.91" y2="-0.49" width="0.127" layer="21"/>
+<wire x1="-3.91" y1="0.49" x2="-3.91" y2="-0.49" width="0.127" layer="21"/>
+<wire x1="3.91" y1="0.49" x2="3.91" y2="-0.49" width="0.127" layer="21"/>
+<text x="1.25" y="-2" size="0.8" layer="21">&gt;NAME</text>
+</package>
+<package name="SSM-103-S-SV-P-TR" urn="urn:adsk.eagle:footprint:5910958/1" library_version="25">
+<description>.100[2.54] C.L. SURFACE MOUNT SINGLE VERTICAL SOCKET STRIP.</description>
+<wire x1="3.429" y1="1.27" x2="3.429" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="3.429" y1="-1.27" x2="-3.429" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.429" y2="1.27" width="0.127" layer="51"/>
+<wire x1="3.81" y1="2.9845" x2="3.81" y2="-2.9845" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.9845" x2="-3.81" y2="-2.9845" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-2.9845" x2="-3.81" y2="2.9845" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.9845" x2="3.81" y2="2.9845" width="0.127" layer="21"/>
+<wire x1="-3.429" y1="1.27" x2="3.429" y2="1.27" width="0.127" layer="51"/>
+<smd name="1" x="-2.54" y="1.778" dx="1.016" dy="1.905" layer="1"/>
+<smd name="2" x="0" y="-1.778" dx="1.016" dy="1.905" layer="1"/>
+<smd name="3" x="2.54" y="1.778" dx="1.016" dy="1.905" layer="1"/>
+<text x="-2.2543" y="-4.4768" size="1.016" layer="25">&gt;NAME</text>
+<text x="-3.048" y="3.302" size="1.016" layer="21">1</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="ABLS2-24.000MHZ-D4YF-T" urn="urn:adsk.eagle:package:5911060/1" type="box" library_version="13" library_locally_modified="yes">
@@ -1534,6 +1640,54 @@ Source: MC-306_405_406_E07X.PDF</description>
 <package3d name="USB-MICRO-B" urn="urn:adsk.eagle:package:5911059/1" type="box" library_version="22" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="USB-MICRO-B"/>
+</packageinstances>
+</package3d>
+<package3d name="JST-XH-3" urn="urn:adsk.eagle:package:5911076/1" type="box" library_version="25">
+<description>3-pin JST PH Shrouded Header &lt;br&gt;
+						2.0mm pitch &lt;br&gt;
+						P/N B3B-PH-K-S. Mating plug PHR-3 &lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="JST-XH-3"/>
+</packageinstances>
+</package3d>
+<package3d name="HEADER-3" urn="urn:adsk.eagle:package:5911077/2" type="box" library_version="25">
+<description>5-pin JST PH Shrouded Header &lt;br&gt;
+						2.0mm pitch &lt;br&gt;
+						P/N B5B-PH-K-S. Mating plug PHR-5 &lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="HEADER-3"/>
+</packageinstances>
+</package3d>
+<package3d name="JST-MOLEX-MULTI-3" urn="urn:adsk.eagle:package:5911078/1" type="box" library_version="25">
+<description>3-pin JST PH Shrouded Header &lt;br&gt;
+						2.0mm pitch &lt;br&gt;
+						P/N B3B-PH-K-S. Mating plug PHR-3 &lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="JST-MOLEX-MULTI-3"/>
+</packageinstances>
+</package3d>
+<package3d name="MOLEX-SLIMFIT-3" urn="urn:adsk.eagle:package:5911079/1" type="box" library_version="25">
+<description>3-pin JST PH Shrouded Header &lt;br&gt;
+						2.0mm pitch &lt;br&gt;
+						P/N B3B-PH-K-S. Mating plug PHR-3 &lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="MOLEX-SLIMFIT-3"/>
+</packageinstances>
+</package3d>
+<package3d name="JST-XH-3-SMT" urn="urn:adsk.eagle:package:5911080/2" type="box" library_version="25">
+<packageinstances>
+<packageinstance name="JST-XH-3-SMT"/>
+</packageinstances>
+</package3d>
+<package3d name="NPTC031KFXC-RC" urn="urn:adsk.eagle:package:5911081/1" type="box" library_version="25">
+<packageinstances>
+<packageinstance name="NPTC031KFXC-RC"/>
+</packageinstances>
+</package3d>
+<package3d name="SSM-103-S-SV-P-TR" urn="urn:adsk.eagle:package:5911082/1" type="box" library_version="25">
+<description>.100[2.54] C.L. SURFACE MOUNT SINGLE VERTICAL SOCKET STRIP.</description>
+<packageinstances>
+<packageinstance name="SSM-103-S-SV-P-TR"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1887,6 +2041,22 @@ Clock</text>
 <pin name="SHIELD" x="17.78" y="10.16" length="middle" rot="R270"/>
 <pin name="ID" x="7.62" y="10.16" length="middle" rot="R270"/>
 <text x="-10.16" y="-7.62" size="1.27" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="CONNECTOR-3" urn="urn:adsk.eagle:symbol:5910855/1" library_version="25">
+<description>3-pin JST PH Shrouded Header, top entry &lt;br&gt;
+						P/N B3B-PH-K-S &lt;br&gt;
+						Mating connector PHR-3 &lt;br&gt;</description>
+<pin name="1" x="-5.08" y="2.54" visible="pin" length="middle"/>
+<pin name="2" x="-5.08" y="0" visible="pin" length="middle"/>
+<pin name="3" x="-5.08" y="-2.54" visible="pin" length="middle"/>
+<text x="-2.54" y="5.842" size="1.27" layer="95">&gt;NAME</text>
+<wire x1="-2.54" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<circle x="0" y="2.54" radius="0.915809375" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.915809375" width="0.254" layer="94"/>
+<circle x="0" y="-2.54" radius="0.915809375" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2838,6 +3008,117 @@ Clock</text>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONNECTOR-3" urn="urn:adsk.eagle:component:5911173/4" prefix="J" library_version="25">
+<description>3-pin connectors</description>
+<gates>
+<gate name="G$1" symbol="CONNECTOR-3" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="JST-XH" package="JST-XH-3">
+<connects>
+<connect gate="G$1" pin="1" pad="P1"/>
+<connect gate="G$1" pin="2" pad="P2"/>
+<connect gate="G$1" pin="3" pad="P3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911076/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="B3B-XH-A (LF)(SN)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="HEADER3" package="HEADER-3">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911077/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MULTI" package="JST-MOLEX-MULTI-3">
+<connects>
+<connect gate="G$1" pin="1" pad="J1 M1"/>
+<connect gate="G$1" pin="2" pad="J2 M2"/>
+<connect gate="G$1" pin="3" pad="J3 M3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911078/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MOLEXSLIM" package="MOLEX-SLIMFIT-3">
+<connects>
+<connect gate="G$1" pin="1" pad="M1"/>
+<connect gate="G$1" pin="2" pad="M2"/>
+<connect gate="G$1" pin="3" pad="M3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911079/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="43650-0300" constant="no"/>
+<attribute name="PROD" value="MOLEX" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="JST-XH-SMT" package="JST-XH-3-SMT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911080/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="S3B-XH-SM4-TB(LF)(SN)" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SMD" package="NPTC031KFXC-RC">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911081/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="S5595-ND" constant="no"/>
+<attribute name="MPN" value="NPTC031KFXC-RC" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SSM-103-S-SV-P-TR" package="SSM-103-S-SV-P-TR">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911082/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="SSM-103-S-SV-P-TR" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -10337,8 +10618,6 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="PWM1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
 <part name="SCL0" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
 <part name="SDA0" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
-<part name="SCL1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
-<part name="SDA1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
 <part name="MISO" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
 <part name="SCK" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
 <part name="CS" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
@@ -10347,8 +10626,8 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="TX1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
 <part name="R27" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="2k"/>
 <part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="2k"/>
-<part name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="2k"/>
-<part name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="2k"/>
+<part name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="NC2k"/>
+<part name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="NC2k"/>
 <part name="5V" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="PAD" device="TH" package3d_urn="urn:adsk.eagle:package:5911125/1"/>
 <part name="GND" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="PAD" device="TH" package3d_urn="urn:adsk.eagle:package:5911125/1"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -10472,6 +10751,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="SW2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
 <part name="SW3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
 <part name="P1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="USB" device="629105150521"/>
+<part name="J1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="CONNECTOR-3" device="HEADER3" package3d_urn="urn:adsk.eagle:package:5911077/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -10509,12 +10789,6 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <instance part="SDA0" gate="G$1" x="121.92" y="68.58" smashed="yes">
 <attribute name="NAME" x="127.762" y="68.58" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="SCL1" gate="G$1" x="121.92" y="63.5" smashed="yes">
-<attribute name="NAME" x="127.762" y="63.5" size="1.778" layer="95" align="center-left"/>
-</instance>
-<instance part="SDA1" gate="G$1" x="121.92" y="58.42" smashed="yes">
-<attribute name="NAME" x="127.762" y="58.42" size="1.778" layer="95" align="center-left"/>
-</instance>
 <instance part="MISO" gate="G$1" x="121.92" y="53.34" smashed="yes">
 <attribute name="NAME" x="127.762" y="53.34" size="1.778" layer="95" align="center-left"/>
 </instance>
@@ -10535,19 +10809,19 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 </instance>
 <instance part="R27" gate="G$1" x="139.7" y="71.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="143.51" y="69.6214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="148.59" y="71.882" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="146.05" y="70.358" size="1.778" layer="96"/>
 </instance>
 <instance part="R28" gate="G$1" x="139.7" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="143.51" y="64.5414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="148.59" y="66.802" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="146.05" y="65.278" size="1.778" layer="96"/>
 </instance>
 <instance part="R29" gate="G$1" x="139.7" y="60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="143.51" y="59.4614" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="148.59" y="61.722" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="146.05" y="60.198" size="1.778" layer="96"/>
 </instance>
 <instance part="R30" gate="G$1" x="139.7" y="55.88" smashed="yes" rot="R180">
 <attribute name="NAME" x="143.51" y="54.3814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="148.59" y="56.642" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="146.05" y="55.118" size="1.778" layer="96"/>
 </instance>
 <instance part="CAMIO1" gate="G$1" x="223.52" y="48.26" smashed="yes">
 <attribute name="NAME" x="229.362" y="48.26" size="1.778" layer="95" align="center-left"/>
@@ -10559,8 +10833,8 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <attribute name="NAME" x="190.5" y="103.378" size="1.27" layer="95" rot="MR180"/>
 </instance>
 <instance part="R31" gate="G$1" x="137.16" y="43.18" smashed="yes" rot="R180">
-<attribute name="NAME" x="140.97" y="41.6814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="146.05" y="43.942" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="135.89" y="39.5986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="135.89" y="37.338" size="1.778" layer="96"/>
 </instance>
 <instance part="C40" gate="G$1" x="177.8" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="176.276" y="96.139" size="1.778" layer="95" rot="R180"/>
@@ -10573,8 +10847,8 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <attribute name="NAME" x="185.801" y="67.056" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="181.356" y="68.199" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="PB2" gate="G$1" x="124.46" y="93.98" smashed="yes">
-<attribute name="NAME" x="130.302" y="93.98" size="1.778" layer="95" align="center-left"/>
+<instance part="PB2" gate="G$1" x="121.92" y="93.98" smashed="yes">
+<attribute name="NAME" x="127.762" y="93.98" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="DIGITAL3" gate="G$1" x="124.46" y="144.78" smashed="yes">
 <attribute name="NAME" x="130.302" y="144.78" size="1.778" layer="95" align="center-left"/>
@@ -10585,8 +10859,8 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <instance part="DIGITAL1" gate="G$1" x="124.46" y="154.94" smashed="yes">
 <attribute name="NAME" x="130.302" y="154.94" size="1.778" layer="95" align="center-left"/>
 </instance>
-<instance part="PB3" gate="G$1" x="124.46" y="88.9" smashed="yes">
-<attribute name="NAME" x="130.302" y="88.9" size="1.778" layer="95" align="center-left"/>
+<instance part="PB3" gate="G$1" x="121.92" y="88.9" smashed="yes">
+<attribute name="NAME" x="127.762" y="88.9" size="1.778" layer="95" align="center-left"/>
 </instance>
 <instance part="SW1" gate="G$1" x="172.72" y="149.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="170.18" y="156.21" size="1.778" layer="95"/>
@@ -10599,6 +10873,9 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <instance part="SW3" gate="G$1" x="172.72" y="165.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="170.18" y="171.45" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.895" y="168.91" size="1.778" layer="96"/>
+</instance>
+<instance part="J1" gate="G$1" x="231.14" y="134.62" smashed="yes">
+<attribute name="NAME" x="228.6" y="140.462" size="1.27" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -10667,7 +10944,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <label x="124.46" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="TX2" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="PB0/UART2/TX"/>
 <wire x1="116.84" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
@@ -10681,7 +10958,12 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="RX2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$49" class="0">
+<net name="SCL" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="3"/>
+<wire x1="187.96" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
+<label x="185.42" y="111.76" size="1.778" layer="95" rot="R180"/>
+</segment>
 <segment>
 <pinref part="U1" gate="G$2" pin="PB6/I2C0/SCL"/>
 <wire x1="116.84" y1="73.66" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
@@ -10690,9 +10972,18 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <wire x1="121.92" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
 <junction x="121.92" y="73.66"/>
 <pinref part="R27" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="71.12" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
+<junction x="134.62" y="71.12"/>
+<wire x1="134.62" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
+<label x="152.4" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$50" class="0">
+<net name="SDA" class="0">
+<segment>
+<pinref part="J4" gate="G$1" pin="4"/>
+<wire x1="187.96" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
+<label x="185.42" y="114.3" size="1.778" layer="95" rot="R180"/>
+</segment>
 <segment>
 <pinref part="U1" gate="G$2" pin="PB7/I2C0/SDA"/>
 <wire x1="116.84" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
@@ -10701,46 +10992,10 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <wire x1="121.92" y1="66.04" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
 <junction x="121.92" y="68.58"/>
 <pinref part="R28" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="SCL" class="0">
-<segment>
-<pinref part="U1" gate="G$2" pin="PB8/I2C1/SCL"/>
-<wire x1="116.84" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="SCL1" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="63.5" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
-<junction x="121.92" y="63.5"/>
-<wire x1="121.92" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="60.96" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
-<junction x="134.62" y="60.96"/>
-<wire x1="134.62" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
-<label x="152.4" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="3"/>
-<wire x1="187.96" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
-<label x="185.42" y="111.76" size="1.778" layer="95" rot="R180"/>
-</segment>
-</net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="U1" gate="G$2" pin="PB9/I2C1/SDA"/>
-<wire x1="116.84" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="SDA1" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="58.42" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
-<junction x="121.92" y="58.42"/>
-<pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="55.88" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
-<junction x="134.62" y="55.88"/>
-<label x="152.4" y="53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J4" gate="G$1" pin="4"/>
-<wire x1="187.96" y1="114.3" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
-<label x="185.42" y="114.3" size="1.778" layer="95" rot="R180"/>
+<wire x1="134.62" y1="66.04" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
+<junction x="134.62" y="66.04"/>
+<wire x1="134.62" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+<label x="152.4" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -10780,14 +11035,14 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <label x="121.92" y="78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="N$59" class="0">
+<net name="TX1" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="PE21/UART1/TX"/>
 <wire x1="53.34" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="TX1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$60" class="0">
+<net name="RX1" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="PE22/UART1/RX"/>
 <wire x1="53.34" y1="139.7" x2="48.26" y2="139.7" width="0.1524" layer="91"/>
@@ -10866,6 +11121,12 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <junction x="182.88" y="137.16"/>
 <label x="182.88" y="129.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
+<label x="220.98" y="137.16" size="1.27" layer="95"/>
+<label x="218.44" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -10899,19 +11160,20 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <net name="N$54" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="PB2"/>
-<wire x1="116.84" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="PB2" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
-<junction x="124.46" y="93.98"/>
+<wire x1="121.92" y1="93.98" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="91.44" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
+<junction x="121.92" y="93.98"/>
 <pinref part="SW2" gate="G$1" pin="P"/>
-<wire x1="147.32" y1="93.98" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="91.44" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="137.16" x2="167.64" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$57" class="0">
 <segment>
 <pinref part="U1" gate="G$2" pin="PB3"/>
-<wire x1="116.84" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="PB3" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -10949,6 +11211,44 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="U1" gate="G$2" pin="PF6"/>
 <wire x1="116.84" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
 <label x="124.46" y="109.22" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="TX0" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PB9/I2C1/SDA"/>
+<wire x1="116.84" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="58.42" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="55.88" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
+<junction x="134.62" y="55.88"/>
+<label x="152.4" y="53.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="226.06" y1="132.08" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
+<label x="220.98" y="132.08" size="1.27" layer="95"/>
+<label x="218.44" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="RX0" class="0">
+<segment>
+<pinref part="U1" gate="G$2" pin="PB8/I2C1/SCL"/>
+<wire x1="116.84" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="63.5" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="60.96" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
+<junction x="134.62" y="60.96"/>
+<wire x1="134.62" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
+<label x="152.4" y="58.42" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="134.62" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
+<label x="220.98" y="134.62" size="1.27" layer="95"/>
+<label x="218.44" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
