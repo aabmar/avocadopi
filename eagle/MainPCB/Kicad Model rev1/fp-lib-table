@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name avocado-rev01)(type KiCad)(uri "$(KIPRJMOD)/avocado-rev01.pretty")(options "")(descr ""))
-)

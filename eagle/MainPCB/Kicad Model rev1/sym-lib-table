@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name avocado-rev01-eagle-import)(type Legacy)(uri ${KIPRJMOD}/avocado-rev01-eagle-import.lib)(options "")(descr ""))
-  (lib (name avocado-rev01-rescue)(type Legacy)(uri ${KIPRJMOD}/avocado-rev01-rescue.lib)(options "")(descr ""))
-)
