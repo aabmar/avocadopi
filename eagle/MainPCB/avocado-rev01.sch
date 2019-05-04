@@ -3,7 +3,7 @@
 <eagle version="9.4.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -188,7 +188,7 @@
 <libraries>
 <library name="marius" urn="urn:adsk.eagle:library:5910807">
 <packages>
-<package name="QFP-128" library_version="13" library_locally_modified="yes">
+<package name="QFP-128" urn="urn:adsk.eagle:footprint:9770406/1" library_version="25">
 <circle x="-7.62" y="-7.62" radius="0.5" width="0.127" layer="21"/>
 <circle x="-5.08" y="-5.08" radius="0.5" width="0.127" layer="21"/>
 <wire x1="-8.9" y1="8.9" x2="8.9" y2="8.9" width="0.1998" layer="39"/>
@@ -451,7 +451,7 @@ Source: MC-306_405_406_E07X.PDF</description>
 <text x="-1.27" y="1.27" size="0.7" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="0.7" layer="27">&gt;VALUE</text>
 </package>
-<package name="C0603" urn="urn:adsk.eagle:footprint:5910900/1" library_version="1" library_locally_modified="yes">
+<package name="C0603" urn="urn:adsk.eagle:footprint:5910900/2" library_version="25">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-1.473" y1="0.729" x2="1.473" y2="0.729" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="0.729" x2="1.473" y2="-0.729" width="0.0508" layer="39"/>
@@ -462,8 +462,7 @@ Source: MC-306_405_406_E07X.PDF</description>
 <wire x1="0" y1="0.3175" x2="0" y2="-0.3175" width="0.127" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="0.7" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="0.7" layer="27">&gt;VALUE</text>
+<text x="1.665" y="-0.465" size="0.8" layer="25">&gt;NAME</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -1190,32 +1189,16 @@ Source: MC-306_405_406_E07X.PDF</description>
 <wire x1="3.75" y1="-5" x2="-3.75" y2="-5" width="0.15" layer="21"/>
 <text x="5.715" y="-5.08" size="1.016" layer="25">&gt;NAME</text>
 </package>
-<package name="629105150521" library_version="22" library_locally_modified="yes">
+<package name="629105150521" urn="urn:adsk.eagle:footprint:10398395/1" library_version="25">
 <description>&lt;b&gt;629105150521&lt;/b&gt;&lt;p&gt;
 WR-COM_USB_Micro Type B_Horizontal_SMT Micro Type B Horizontal SMT - 3A current at Pin1 &amp; Pin 5 - with Pegs and THT shielding Pins  - T&amp;R Packaging</description>
 <wire x1="-4" y1="-5.15" x2="4" y2="-5.15" width="0.127" layer="21"/>
 <wire x1="-4" y1="-5.15" x2="-4" y2="1.45" width="0.127" layer="51"/>
 <wire x1="4" y1="-5.15" x2="4" y2="1.45" width="0.127" layer="51"/>
 <wire x1="-4" y1="1.45" x2="4" y2="1.45" width="0.127" layer="51"/>
-<smd name="1" x="-1.3" y="1.05" dx="0.45" dy="1.3" layer="1"/>
-<smd name="2" x="-0.65" y="1.05" dx="0.45" dy="1.3" layer="1"/>
-<smd name="3" x="0" y="1.05" dx="0.45" dy="1.3" layer="1"/>
-<smd name="4" x="0.65" y="1.05" dx="0.45" dy="1.3" layer="1"/>
-<smd name="5" x="1.3" y="1.05" dx="0.45" dy="1.3" layer="1"/>
-<pad name="SHELL" x="-3.725" y="1.05" drill="0.85" diameter="1.2" shape="long" rot="R90"/>
-<pad name="SHELL1" x="3.725" y="1.05" drill="0.85" diameter="1.2" shape="long" rot="R90"/>
-<pad name="SHELL2" x="-3.875" y="-2.75" drill="0.55" diameter="0.9" shape="long" rot="R90"/>
-<pad name="SHELL3" x="3.875" y="-2.75" drill="0.55" diameter="0.9" shape="long" rot="R90"/>
-<text x="0.3484" y="3.3056" size="1.27" layer="25" font="vector" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
-<text x="-3.0516" y="-7.35" size="1.27" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
-<hole x="-2.5" y="0" drill="0.8"/>
-<hole x="2.5" y="0" drill="0.8"/>
 <wire x1="-4.15" y1="1.6" x2="-4.15" y2="0.5" width="0.127" layer="46"/>
 <wire x1="-3.3" y1="1.6" x2="-3.3" y2="0.5" width="0.127" layer="46"/>
 <wire x1="-4.15" y1="-2.27" x2="-4.15" y2="-3.23" width="0.127" layer="46"/>
-<text x="-0.9" y="-4.68" size="0.4064" layer="51">PCB edge</text>
-<text x="-1.6" y="-0.75" size="0.8128" layer="21">1</text>
-<text x="-1.6" y="-0.75" size="0.8128" layer="48">1</text>
 <wire x1="-3.6" y1="-2.27" x2="-3.6" y2="-3.23" width="0.127" layer="46"/>
 <wire x1="-2.92" y1="1.45" x2="-1.77" y2="1.45" width="0.127" layer="21"/>
 <wire x1="1.71" y1="1.45" x2="2.93" y2="1.45" width="0.127" layer="21"/>
@@ -1223,12 +1206,6 @@ WR-COM_USB_Micro Type B_Horizontal_SMT Micro Type B Horizontal SMT - 3A current 
 <wire x1="4" y1="-0.32" x2="4" y2="-1.65" width="0.127" layer="21"/>
 <wire x1="-4" y1="-3.9" x2="-4" y2="-5.15" width="0.127" layer="21"/>
 <wire x1="4" y1="-3.85" x2="4" y2="-5.15" width="0.127" layer="21"/>
-<polygon width="0.127" layer="39">
-<vertex x="-4.75" y="2.5"/>
-<vertex x="4.75" y="2.5"/>
-<vertex x="4.75" y="-5.4"/>
-<vertex x="-4.75" y="-5.4"/>
-</polygon>
 <wire x1="-4" y1="1.75" x2="-3.45" y2="1.75" width="0.127" layer="46"/>
 <wire x1="-4" y1="0.35" x2="-3.45" y2="0.35" width="0.127" layer="46"/>
 <wire x1="-4.15" y1="1.6" x2="-4" y2="1.75" width="0.127" layer="46" curve="-90"/>
@@ -1257,6 +1234,28 @@ WR-COM_USB_Micro Type B_Horizontal_SMT Micro Type B Horizontal SMT - 3A current 
 <wire x1="4.03" y1="-2.15" x2="4.15" y2="-2.27" width="0.127" layer="46" curve="-90"/>
 <wire x1="3.72" y1="-3.35" x2="3.6" y2="-3.23" width="0.127" layer="46" curve="-90"/>
 <wire x1="4.15" y1="-3.23" x2="4.03" y2="-3.35" width="0.127" layer="46" curve="-90"/>
+<smd name="1" x="-1.3" y="1.05" dx="0.45" dy="1.3" layer="1"/>
+<smd name="2" x="-0.65" y="1.05" dx="0.45" dy="1.3" layer="1"/>
+<smd name="3" x="0" y="1.05" dx="0.45" dy="1.3" layer="1"/>
+<smd name="4" x="0.65" y="1.05" dx="0.45" dy="1.3" layer="1"/>
+<smd name="5" x="1.3" y="1.05" dx="0.45" dy="1.3" layer="1"/>
+<pad name="SHELL" x="-3.725" y="1.05" drill="0.85" diameter="1.2" shape="long" rot="R90"/>
+<pad name="SHELL1" x="3.725" y="1.05" drill="0.85" diameter="1.2" shape="long" rot="R90"/>
+<pad name="SHELL2" x="-3.875" y="-2.75" drill="0.55" diameter="0.9" shape="long" rot="R90"/>
+<pad name="SHELL3" x="3.875" y="-2.75" drill="0.55" diameter="0.9" shape="long" rot="R90"/>
+<text x="0.3484" y="3.3056" size="1.27" layer="25" font="vector" ratio="13" rot="SR0" align="bottom-center">&gt;NAME</text>
+<text x="-3.0516" y="-7.35" size="1.27" layer="27" font="vector" ratio="13" rot="SR0">&gt;VALUE</text>
+<text x="-0.9" y="-4.68" size="0.4064" layer="51">PCB edge</text>
+<text x="-1.6" y="-0.75" size="0.8128" layer="21">1</text>
+<text x="-1.6" y="-0.75" size="0.8128" layer="48">1</text>
+<hole x="-2.5" y="0" drill="0.8"/>
+<hole x="2.5" y="0" drill="0.8"/>
+<polygon width="0.127" layer="39">
+<vertex x="-4.75" y="2.5"/>
+<vertex x="4.75" y="2.5"/>
+<vertex x="4.75" y="-5.4"/>
+<vertex x="-4.75" y="-5.4"/>
+</polygon>
 </package>
 <package name="JST-XH-3" urn="urn:adsk.eagle:footprint:5910952/1" library_version="25">
 <description>3-pin JST PH Shrouded Header &lt;br&gt;
@@ -1364,6 +1363,37 @@ WR-COM_USB_Micro Type B_Horizontal_SMT Micro Type B Horizontal SMT - 3A current 
 <text x="-2.2543" y="-4.4768" size="1.016" layer="25">&gt;NAME</text>
 <text x="-3.048" y="3.302" size="1.016" layer="21">1</text>
 </package>
+<package name="CAP5.3" urn="urn:adsk.eagle:footprint:10099247/1" library_version="25">
+<smd name="1" x="-1.8" y="0" dx="3" dy="1.6" layer="1"/>
+<smd name="2" x="1.8" y="0" dx="3" dy="1.6" layer="1"/>
+<wire x1="3.6496" y1="-3.0146" x2="-3.6496" y2="-3.0146" width="0.1524" layer="39"/>
+<wire x1="-3.6496" y1="-3.0146" x2="-3.6496" y2="3.0146" width="0.1524" layer="39"/>
+<wire x1="-3.6496" y1="3.0146" x2="3.6496" y2="3.0146" width="0.1524" layer="39"/>
+<wire x1="3.6496" y1="3.0146" x2="3.6496" y2="-3.0146" width="0.1524" layer="39"/>
+<wire x1="2.65" y1="1.1112" x2="2.65" y2="2.65" width="0.1524" layer="21"/>
+<wire x1="-2.65" y1="-1.1176" x2="-2.65" y2="-2.65" width="0.1524" layer="21"/>
+<wire x1="-3.6322" y1="0" x2="-4.3942" y2="0" width="0.1524" layer="21"/>
+<wire x1="-4.0132" y1="0.381" x2="-4.0132" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-2.65" y1="-2.65" x2="-1.1176" y2="-2.65" width="0.1524" layer="21"/>
+<wire x1="-1.1176" y1="-2.65" x2="2.65" y2="-2.65" width="0.1524" layer="21"/>
+<wire x1="2.65" y1="-2.65" x2="2.65" y2="-1.1112" width="0.1524" layer="21"/>
+<wire x1="2.65" y1="2.65" x2="-1.1176" y2="2.65" width="0.1524" layer="21"/>
+<wire x1="-1.1176" y1="2.65" x2="-2.65" y2="2.65" width="0.1524" layer="21"/>
+<wire x1="-2.65" y1="2.65" x2="-2.65" y2="1.1176" width="0.1524" layer="21"/>
+<wire x1="-2.65" y1="1.1176" x2="-2.65" y2="1.1112" width="0.1524" layer="21"/>
+<wire x1="-3.6322" y1="0" x2="-4.3942" y2="0" width="0.1524" layer="51"/>
+<wire x1="-4.0132" y1="0.381" x2="-4.0132" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-2.65" y1="-2.65" x2="2.65" y2="-2.65" width="0.1524" layer="51"/>
+<wire x1="2.65" y1="-2.65" x2="2.65" y2="2.65" width="0.1524" layer="51"/>
+<wire x1="2.65" y1="2.65" x2="-2.65" y2="2.65" width="0.1524" layer="51"/>
+<wire x1="-2.65" y1="2.65" x2="-2.65" y2="-2.65" width="0.1524" layer="51"/>
+<wire x1="-2.65" y1="1.1176" x2="-1.1176" y2="2.65" width="0.1524" layer="21"/>
+<wire x1="-2.65" y1="-1.1176" x2="-1.1176" y2="-2.65" width="0.1524" layer="21"/>
+<wire x1="-2.65" y1="-1.1176" x2="-1.1176" y2="-2.65" width="0.1524" layer="51"/>
+<wire x1="-2.65" y1="1.1176" x2="-1.1176" y2="2.65" width="0.1524" layer="51"/>
+<text x="-2.921" y="3.2766" size="1" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-2.9972" y="-4.1656" size="1" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="ABLS2-24.000MHZ-D4YF-T" urn="urn:adsk.eagle:package:5911060/1" type="box" library_version="13" library_locally_modified="yes">
@@ -1401,7 +1431,7 @@ Source: MC-306_405_406_E07X.PDF</description>
 <packageinstance name="C1206"/>
 </packageinstances>
 </package3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:5911006/1" type="box" library_version="1" library_locally_modified="yes">
+<package3d name="C0603" urn="urn:adsk.eagle:package:5911006/3" type="model" library_version="25">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="C0603"/>
@@ -1522,14 +1552,11 @@ Source: MC-306_405_406_E07X.PDF</description>
 <packageinstance name="R0201"/>
 </packageinstances>
 </package3d>
-<package3d name="CAP4.3X6.1" urn="urn:adsk.eagle:package:5911014/1" type="box" library_version="1" library_locally_modified="yes">
+<package3d name="CAP4.3X6.1" urn="urn:adsk.eagle:package:5911014/2" type="model" library_version="25">
+<description>ECAP (Aluminum Electrolytic Capacitor), 4.25 X 5.50 mm body
+&lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 4.25 X 5.50 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CAP4.3X6.1"/>
-</packageinstances>
-</package3d>
-<package3d name="CAP6.6X8" urn="urn:adsk.eagle:package:5911013/1" type="box" library_version="1" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="CAP6.6X8"/>
 </packageinstances>
 </package3d>
 <package3d name="C1206-POL" urn="urn:adsk.eagle:package:5911012/1" type="box" library_version="1" library_locally_modified="yes">
@@ -1621,17 +1648,7 @@ Source: MC-306_405_406_E07X.PDF</description>
 <packageinstance name="FIDUCIAL_1MM"/>
 </packageinstances>
 </package3d>
-<package3d name="SMD_TOP_1MM" urn="urn:adsk.eagle:package:5911025/2" type="box" library_version="13" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="SMD_TOP_1MM"/>
-</packageinstances>
-</package3d>
-<package3d name="SMD_TOP_.8MM" urn="urn:adsk.eagle:package:5911024/1" type="box" library_version="13" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="SMD_TOP_.8MM"/>
-</packageinstances>
-</package3d>
-<package3d name="PAD" urn="urn:adsk.eagle:package:5911125/1" type="box" library_version="13" library_locally_modified="yes">
+<package3d name="PAD" urn="urn:adsk.eagle:package:5911125/2" type="box" library_version="25">
 <description>Through Hole Pad</description>
 <packageinstances>
 <packageinstance name="PAD"/>
@@ -1690,6 +1707,42 @@ Source: MC-306_405_406_E07X.PDF</description>
 <packageinstance name="SSM-103-S-SV-P-TR"/>
 </packageinstances>
 </package3d>
+<package3d name="QFP-128" urn="urn:adsk.eagle:package:9770407/1" type="box" library_version="25">
+<packageinstances>
+<packageinstance name="QFP-128"/>
+</packageinstances>
+</package3d>
+<package3d name="CAP6.6X8" urn="urn:adsk.eagle:package:5911013/2" type="model" library_version="25">
+<description>ECAP (Aluminum Electrolytic Capacitor), 6.60 X 5.60 mm body
+&lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 6.60 X 5.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAP6.6X8"/>
+</packageinstances>
+</package3d>
+<package3d name="CAP5.3" urn="urn:adsk.eagle:package:10099248/2" type="model" library_version="25">
+<description>ECAP (Aluminum Electrolytic Capacitor), 5.30 X 6.00 mm body
+&lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 5.30 X 6.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAP5.3"/>
+</packageinstances>
+</package3d>
+<package3d name="SMD_TOP_1MM" urn="urn:adsk.eagle:package:5911025/3" type="box" library_version="25">
+<packageinstances>
+<packageinstance name="SMD_TOP_1MM"/>
+</packageinstances>
+</package3d>
+<package3d name="SMD_TOP_.8MM" urn="urn:adsk.eagle:package:5911024/2" type="box" library_version="25">
+<packageinstances>
+<packageinstance name="SMD_TOP_.8MM"/>
+</packageinstances>
+</package3d>
+<package3d name="629105150521" urn="urn:adsk.eagle:package:10398396/1" type="box" library_version="25">
+<description>&lt;b&gt;629105150521&lt;/b&gt;&lt;p&gt;
+WR-COM_USB_Micro Type B_Horizontal_SMT Micro Type B Horizontal SMT - 3A current at Pin1 &amp; Pin 5 - with Pegs and THT shielding Pins  - T&amp;R Packaging</description>
+<packageinstances>
+<packageinstance name="629105150521"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="DINA4_L" urn="urn:adsk.eagle:symbol:5910822/1" library_version="13" library_locally_modified="yes">
@@ -1724,7 +1777,7 @@ Source: MC-306_405_406_E07X.PDF</description>
 <text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
 <text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
 </symbol>
-<symbol name="AUDIO" library_version="13" library_locally_modified="yes">
+<symbol name="AUDIO" urn="urn:adsk.eagle:symbol:9770398/1" library_version="25">
 <wire x1="-12.7" y1="-15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-15.24" x2="15.24" y2="20.32" width="0.254" layer="94"/>
 <wire x1="15.24" y1="20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
@@ -1742,7 +1795,7 @@ Source: MC-306_405_406_E07X.PDF</description>
 <pin name="VRA2" x="-17.78" y="2.54" length="middle"/>
 <text x="10.16" y="17.78" size="2.54" layer="94" rot="R180">Audio Codec</text>
 </symbol>
-<symbol name="IO-BANK" library_version="13" library_locally_modified="yes">
+<symbol name="IO-BANK" urn="urn:adsk.eagle:symbol:9770399/1" library_version="25">
 <wire x1="-25.4" y1="73.66" x2="-25.4" y2="-73.66" width="0.254" layer="94"/>
 <wire x1="-25.4" y1="-73.66" x2="27.94" y2="-73.66" width="0.254" layer="94"/>
 <wire x1="27.94" y1="-73.66" x2="27.94" y2="73.66" width="0.254" layer="94"/>
@@ -1802,7 +1855,7 @@ Source: MC-306_405_406_E07X.PDF</description>
 <pin name="PG5/SDC1/D3" x="33.02" y="45.72" length="middle" rot="R180"/>
 <text x="-20.32" y="60.96" size="5.08" layer="94">IO-Bank</text>
 </symbol>
-<symbol name="MIPI-CSI" library_version="13" library_locally_modified="yes">
+<symbol name="MIPI-CSI" urn="urn:adsk.eagle:symbol:9770400/1" library_version="25">
 <wire x1="-12.7" y1="15.24" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-10.16" x2="15.24" y2="15.24" width="0.254" layer="94"/>
@@ -1815,7 +1868,7 @@ Source: MC-306_405_406_E07X.PDF</description>
 <pin name="MCSI-D1P" x="20.32" y="-2.54" length="middle" rot="R180"/>
 <text x="-5.08" y="10.16" size="2.54" layer="94">MIPI CSI</text>
 </symbol>
-<symbol name="RESET&amp;CLOCK" library_version="13" library_locally_modified="yes">
+<symbol name="RESET&amp;CLOCK" urn="urn:adsk.eagle:symbol:9770401/1" library_version="25">
 <wire x1="-12.7" y1="-10.16" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
 <wire x1="15.24" y1="12.7" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
@@ -1828,7 +1881,7 @@ Source: MC-306_405_406_E07X.PDF</description>
 <text x="0" y="5.08" size="2.54" layer="94">Reset
 Clock</text>
 </symbol>
-<symbol name="USB&amp;ETHERNET" library_version="13" library_locally_modified="yes">
+<symbol name="USB&amp;ETHERNET" urn="urn:adsk.eagle:symbol:9770402/1" library_version="25">
 <wire x1="-20.32" y1="-12.7" x2="20.32" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-12.7" x2="20.32" y2="12.7" width="0.254" layer="94"/>
 <wire x1="20.32" y1="12.7" x2="-20.32" y2="12.7" width="0.254" layer="94"/>
@@ -1845,7 +1898,7 @@ Clock</text>
 <text x="-7.62" y="2.54" size="2.54" layer="94">Ethernet</text>
 <text x="-7.62" y="7.62" size="2.54" layer="94">USB</text>
 </symbol>
-<symbol name="VCC" library_version="13" library_locally_modified="yes">
+<symbol name="VCC" urn="urn:adsk.eagle:symbol:9770403/1" library_version="25">
 <wire x1="-15.24" y1="40.64" x2="-15.24" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-35.56" x2="15.24" y2="-35.56" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-35.56" x2="15.24" y2="40.64" width="0.254" layer="94"/>
@@ -1883,7 +1936,7 @@ Clock</text>
 <text x="5.08" y="20.32" size="2.54" layer="94" rot="R180">VCC</text>
 <text x="5.08" y="35.56" size="2.54" layer="94" rot="R180">GND</text>
 </symbol>
-<symbol name="VCC-DRAM" library_version="13" library_locally_modified="yes">
+<symbol name="VCC-DRAM" urn="urn:adsk.eagle:symbol:9770404/1" library_version="25">
 <wire x1="-20.32" y1="-20.32" x2="20.32" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-20.32" x2="20.32" y2="20.32" width="0.254" layer="94"/>
 <wire x1="20.32" y1="20.32" x2="-20.32" y2="20.32" width="0.254" layer="94"/>
@@ -2075,7 +2128,7 @@ Clock</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="V3S" prefix="U" library_version="13" library_locally_modified="yes">
+<deviceset name="V3S" urn="urn:adsk.eagle:component:9770408/1" prefix="U" library_version="25">
 <gates>
 <gate name="G$1" symbol="AUDIO" x="-7.62" y="121.92"/>
 <gate name="G$2" symbol="IO-BANK" x="-7.62" y="22.86"/>
@@ -2218,6 +2271,9 @@ Clock</text>
 <connect gate="G$7" pin="VCC-DRAM8" pad="59"/>
 <connect gate="G$7" pin="VCC-DRAM9" pad="60"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9770407/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MPN" value="V3s" constant="no"/>
@@ -2298,7 +2354,7 @@ Clock</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C" urn="urn:adsk.eagle:component:5911145/2" prefix="C" uservalue="yes" library_version="5" library_locally_modified="yes">
+<deviceset name="C" urn="urn:adsk.eagle:component:5911145/4" prefix="C" uservalue="yes" library_version="25">
 <description>Capacitor SMD</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="2.54"/>
@@ -2322,7 +2378,7 @@ Clock</text>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5911006/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911006/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2752,7 +2808,7 @@ Clock</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C_POL" urn="urn:adsk.eagle:component:5911146/1" prefix="C" uservalue="yes" library_version="1" library_locally_modified="yes">
+<deviceset name="C_POL" urn="urn:adsk.eagle:component:5911146/4" prefix="C" uservalue="yes" library_version="25">
 <description>Cap polarized SMD</description>
 <gates>
 <gate name="G$1" symbol="CPOL" x="0" y="2.54"/>
@@ -2764,7 +2820,7 @@ Clock</text>
 <connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5911014/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911014/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2776,7 +2832,7 @@ Clock</text>
 <connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5911013/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911013/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2837,6 +2893,18 @@ Clock</text>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:5911008/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.3" package="CAP5.3">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10099248/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2931,7 +2999,7 @@ Clock</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PAD" urn="urn:adsk.eagle:component:5911154/2" prefix="P" library_version="13" library_locally_modified="yes">
+<deviceset name="PAD" urn="urn:adsk.eagle:component:5911154/3" prefix="P" library_version="25">
 <gates>
 <gate name="G$1" symbol="PAD" x="27.94" y="-5.08"/>
 </gates>
@@ -2941,7 +3009,7 @@ Clock</text>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5911025/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911025/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2952,7 +3020,7 @@ Clock</text>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5911024/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911024/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2963,7 +3031,7 @@ Clock</text>
 <connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5911125/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5911125/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2973,7 +3041,7 @@ Clock</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB" urn="urn:adsk.eagle:component:5911160/1" locally_modified="yes" prefix="P" library_version="22" library_locally_modified="yes">
+<deviceset name="USB" urn="urn:adsk.eagle:component:5911160/2" prefix="P" library_version="25">
 <gates>
 <gate name="A" symbol="USB" x="0" y="0"/>
 </gates>
@@ -3006,6 +3074,9 @@ Clock</text>
 <connect gate="A" pin="SHIELD" pad="SHELL SHELL1 SHELL2 SHELL3"/>
 <connect gate="A" pin="VBUS" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:10398396/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -10513,7 +10584,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 </classes>
 <parts>
 <part name="FRAME1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="DINA4_L" device=""/>
-<part name="U1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="V3S" device=""/>
+<part name="U1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="V3S" device="" package3d_urn="urn:adsk.eagle:package:9770407/1"/>
 <part name="FRAME2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="DINA4_L" device=""/>
 <part name="FRAME3" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="DINA4_L" device=""/>
 <part name="FRAME4" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="DINA4_L" device=""/>
@@ -10523,10 +10594,10 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="X2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="XTAL" device="5X1.9" package3d_urn="urn:adsk.eagle:package:5911062/1">
 <attribute name="MPN" value="SF32K32768D71T01 "/>
 </part>
-<part name="C1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0402" package3d_urn="urn:adsk.eagle:package:5911003/1"/>
-<part name="C2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0402" package3d_urn="urn:adsk.eagle:package:5911003/1"/>
-<part name="C3" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0402" package3d_urn="urn:adsk.eagle:package:5911003/1"/>
-<part name="C4" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0402" package3d_urn="urn:adsk.eagle:package:5911003/1"/>
+<part name="C1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3"/>
+<part name="C2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3"/>
+<part name="C3" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3"/>
+<part name="C4" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3"/>
 <part name="GND1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="GND2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="GND3" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
@@ -10544,8 +10615,8 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="P2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="CONNECTOR-15" device="686115148922" package3d_urn="urn:adsk.eagle:package:5911100/1"/>
 <part name="FRAME5" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="DINA4_L" device=""/>
 <part name="L1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="L" device="6X6" package3d_urn="urn:adsk.eagle:package:5911045/1" value="CALC"/>
-<part name="C5" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="1u"/>
-<part name="C6" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="100n"/>
+<part name="C5" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="1u"/>
+<part name="C6" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="100n"/>
 <part name="R4" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="100k"/>
 <part name="R5" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="59k"/>
 <part name="R6" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="CALC"/>
@@ -10554,14 +10625,14 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="GND8" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="GND9" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="GND10" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
-<part name="C7" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/1" value="22u"/>
-<part name="C8" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/1" value="22u"/>
-<part name="C9" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="100n"/>
+<part name="C7" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/2" value="22u"/>
+<part name="C8" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/2" value="22u"/>
+<part name="C9" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="100n"/>
 <part name="GND11" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="U2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="AP65111A" device="" package3d_urn="urn:adsk.eagle:package:5911115/1"/>
 <part name="L2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="L" device="6X6" package3d_urn="urn:adsk.eagle:package:5911045/1" value="CALC"/>
-<part name="C10" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="1u"/>
-<part name="C11" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="100n"/>
+<part name="C10" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="1u"/>
+<part name="C11" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="100n"/>
 <part name="R8" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="100k"/>
 <part name="R9" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="59k"/>
 <part name="R10" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="CALC"/>
@@ -10570,14 +10641,14 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="GND13" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="GND14" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="GND15" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
-<part name="C12" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/1" value="22u"/>
-<part name="C13" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/1" value="22u"/>
-<part name="C14" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="100n"/>
+<part name="C12" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/2" value="22u"/>
+<part name="C13" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/2" value="22u"/>
+<part name="C14" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="100n"/>
 <part name="GND16" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="U3" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="AP65111A" device="" package3d_urn="urn:adsk.eagle:package:5911115/1"/>
 <part name="L3" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="L" device="6X6" package3d_urn="urn:adsk.eagle:package:5911045/1" value="CALC"/>
-<part name="C15" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="1u"/>
-<part name="C16" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="100n"/>
+<part name="C15" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="1u"/>
+<part name="C16" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="100n"/>
 <part name="R12" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="100k"/>
 <part name="R13" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="59k"/>
 <part name="R14" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="CALC"/>
@@ -10586,12 +10657,12 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="GND18" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="GND19" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="GND20" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
-<part name="C17" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/1" value="22u"/>
-<part name="C18" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/1" value="22u"/>
-<part name="C19" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="100n"/>
+<part name="C17" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/2" value="22u"/>
+<part name="C18" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C_POL" device="4.3" package3d_urn="urn:adsk.eagle:package:5911014/2" value="22u"/>
+<part name="C19" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="100n"/>
 <part name="GND21" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="U4" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="AP65111A" device="" package3d_urn="urn:adsk.eagle:package:5911115/1"/>
-<part name="R16" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:5911053/1" value="0"/>
+<part name="R16" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="0"/>
 <part name="TX2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
 <part name="FID1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:5911034/1"/>
 <part name="FID2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="FIDUCIAL" device="" package3d_urn="urn:adsk.eagle:package:5911034/1"/>
@@ -10603,15 +10674,15 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="R19" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2"/>
 <part name="R20" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="10k"/>
 <part name="GND22" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
-<part name="R21" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:5911053/1" value="47k"/>
-<part name="R22" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:5911053/1" value="47k"/>
-<part name="R23" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:5911053/1" value="47k"/>
-<part name="R24" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:5911053/1" value="47k"/>
-<part name="R25" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:5911053/1" value="47k"/>
-<part name="R26" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:5911053/1" value="47k"/>
-<part name="C20" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="R21" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="47k"/>
+<part name="R22" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="47k"/>
+<part name="R23" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="47k"/>
+<part name="R24" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="47k"/>
+<part name="R25" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="47k"/>
+<part name="R26" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="47k"/>
+<part name="C20" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
 <part name="VCC4" library="m-pad-2.1" deviceset="VCC" device=""/>
-<part name="C21" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="C21" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
 <part name="GND24" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="RX2" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
 <part name="PWM0" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="TEST_TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:5911110/1"/>
@@ -10628,8 +10699,8 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="R28" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="2k"/>
 <part name="R29" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="NC2k"/>
 <part name="R30" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="NC2k"/>
-<part name="5V" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="PAD" device="TH" package3d_urn="urn:adsk.eagle:package:5911125/1"/>
-<part name="GND" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="PAD" device="TH" package3d_urn="urn:adsk.eagle:package:5911125/1"/>
+<part name="5V" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="PAD" device="TH" package3d_urn="urn:adsk.eagle:package:5911125/2"/>
+<part name="GND" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="PAD" device="TH" package3d_urn="urn:adsk.eagle:package:5911125/2"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -10640,30 +10711,30 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <attribute name="AVAILABILITY" value="N/A"/>
 <attribute name="DESCRIPTION" value="N/A"/>
 </part>
-<part name="C22" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C23" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="C22" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C23" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
 <part name="GND25" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
-<part name="C24" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C25" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C26" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C27" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C28" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C29" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C30" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C31" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C32" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C33" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C34" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C35" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C36" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C37" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C38" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C39" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="3V3" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C41" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C42" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C44" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C45" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="C24" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C25" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C26" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C27" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C28" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C29" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C30" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C31" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C32" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C33" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C34" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C35" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C36" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C37" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C38" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C39" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C50" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C41" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C42" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C44" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C45" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
 <part name="IC2" library="AP3410" deviceset="MCP73811/2" device="" package3d_urn="urn:adsk.eagle:package:6240724/1" value="3V#">
 <attribute name="MPN" value="AP3410KTR-G1 "/>
 <attribute name="VOLTAGE" value="3V3"/>
@@ -10676,10 +10747,10 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="GND37" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="R40" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="470K-1%"/>
 <part name="R41" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="100K-1%"/>
-<part name="C69" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="4u7"/>
-<part name="C70" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="47p"/>
-<part name="C71" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C72" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="C69" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="4u7"/>
+<part name="C70" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="47p"/>
+<part name="C71" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C72" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
 <part name="D3" library="LL-R3528RGBC-008-B" deviceset="LL-R3528RGBC-008-B" device="">
 <attribute name="MPN" value="HQ67-23A2ARGBC "/>
 </part>
@@ -10701,10 +10772,10 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="GND31" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="R35" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="100K-1%"/>
 <part name="R36" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="100K-1%"/>
-<part name="C54" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="4u7"/>
-<part name="C55" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="47p"/>
-<part name="C56" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C57" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="C54" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="4u7"/>
+<part name="C55" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="47p"/>
+<part name="C56" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C57" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
 <part name="SJ8" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="IC6" library="AP3410" deviceset="MCP73811/2" device="" package3d_urn="urn:adsk.eagle:package:6240724/1" value="">
 <attribute name="MPN" value="AP3410KTR-G1 "/>
@@ -10718,16 +10789,16 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="GND33" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="R37" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="200K-1%"/>
 <part name="R38" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="100K-1%"/>
-<part name="C58" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="4u7"/>
-<part name="C59" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="47p"/>
-<part name="C60" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C61" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="C58" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="4u7"/>
+<part name="C59" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="47p"/>
+<part name="C60" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C61" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
 <part name="SJ9" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="J4" library="marius" deviceset="CONNECTOR-4" device="HEADER4" package3d_urn="urn:adsk.eagle:package:5911084/2"/>
 <part name="R31" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="10k"/>
-<part name="C40" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="C40" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
 <part name="J5" library="marius" deviceset="CONNECTOR-3" device="HEADER3" package3d_urn="urn:adsk.eagle:package:5911077/2"/>
-<part name="C46" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="C46" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
 <part name="J6" library="HR911105A" deviceset="HR911105A" device=""/>
 <part name="GND26" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="R32" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="51(NC)"/>
@@ -10737,8 +10808,8 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="L4" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="L" device="0603" package3d_urn="urn:adsk.eagle:package:5911033/3" value="10uH(NC)">
 <attribute name="MPN" value=" LVF404018-2R2M-N"/>
 </part>
-<part name="C47" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
-<part name="C48" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/1" value="10u"/>
+<part name="C47" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
+<part name="C48" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:5911006/3" value="10u"/>
 <part name="GND27" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
 <part name="R42" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="6K-1%"/>
 <part name="GND28" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="GND" device=""/>
@@ -10750,7 +10821,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <part name="SW1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
 <part name="SW2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
 <part name="SW3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="SPST_TACT" device="-KMR2" package3d_urn="urn:adsk.eagle:package:6240885/1"/>
-<part name="P1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="USB" device="629105150521"/>
+<part name="P1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="USB" device="629105150521" package3d_urn="urn:adsk.eagle:package:10398396/1"/>
 <part name="J1" library="marius" library_urn="urn:adsk.eagle:library:5910807" deviceset="CONNECTOR-3" device="HEADER3" package3d_urn="urn:adsk.eagle:package:5911077/2"/>
 </parts>
 <sheets>
@@ -11900,28 +11971,28 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <attribute name="VALUE" x="233.68" y="63.5" size="1.778" layer="96"/>
 </instance>
 <instance part="R21" gate="A" x="134.62" y="175.26" smashed="yes">
-<attribute name="NAME" x="130.81" y="176.7586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="130.81" y="171.958" size="1.778" layer="96"/>
+<attribute name="NAME" x="127.508" y="175.7426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.97" y="174.498" size="1.778" layer="96"/>
 </instance>
 <instance part="R22" gate="A" x="134.62" y="172.72" smashed="yes">
-<attribute name="NAME" x="130.81" y="174.2186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="130.81" y="169.418" size="1.778" layer="96"/>
+<attribute name="NAME" x="127.254" y="173.2026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.97" y="171.958" size="1.778" layer="96"/>
 </instance>
 <instance part="R23" gate="A" x="134.62" y="170.18" smashed="yes">
-<attribute name="NAME" x="130.81" y="171.6786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="130.81" y="166.878" size="1.778" layer="96"/>
+<attribute name="NAME" x="127.254" y="170.6626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.97" y="166.878" size="1.778" layer="96"/>
 </instance>
 <instance part="R24" gate="A" x="134.62" y="167.64" smashed="yes">
-<attribute name="NAME" x="130.81" y="169.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="130.81" y="164.338" size="1.778" layer="96"/>
+<attribute name="NAME" x="127" y="167.8686" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.97" y="164.338" size="1.778" layer="96"/>
 </instance>
 <instance part="R25" gate="A" x="134.62" y="165.1" smashed="yes">
-<attribute name="NAME" x="130.81" y="166.5986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="130.81" y="161.798" size="1.778" layer="96"/>
+<attribute name="NAME" x="127" y="165.5826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.97" y="161.798" size="1.778" layer="96"/>
 </instance>
 <instance part="R26" gate="A" x="134.62" y="160.02" smashed="yes">
-<attribute name="NAME" x="130.81" y="161.5186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="130.81" y="156.718" size="1.778" layer="96"/>
+<attribute name="NAME" x="127" y="160.5026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.97" y="159.258" size="1.778" layer="96"/>
 </instance>
 <instance part="C20" gate="G$1" x="231.14" y="83.82" smashed="yes">
 <attribute name="NAME" x="232.664" y="84.201" size="1.778" layer="95"/>
@@ -12247,7 +12318,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 </segment>
 <segment>
 <wire x1="129.54" y1="175.26" x2="127" y2="175.26" width="0.1524" layer="91"/>
-<label x="127" y="175.26" size="1.778" layer="95" rot="R180"/>
+<label x="127" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R21" gate="A" pin="1"/>
 </segment>
 </net>
@@ -12259,7 +12330,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 </segment>
 <segment>
 <wire x1="129.54" y1="172.72" x2="127" y2="172.72" width="0.1524" layer="91"/>
-<label x="127" y="172.72" size="1.778" layer="95" rot="R180"/>
+<label x="127" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R22" gate="A" pin="1"/>
 </segment>
 </net>
@@ -12271,7 +12342,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 </segment>
 <segment>
 <wire x1="129.54" y1="170.18" x2="127" y2="170.18" width="0.1524" layer="91"/>
-<label x="127" y="170.18" size="1.778" layer="95" rot="R180"/>
+<label x="127" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R23" gate="A" pin="1"/>
 </segment>
 </net>
@@ -12283,7 +12354,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 </segment>
 <segment>
 <wire x1="129.54" y1="167.64" x2="127" y2="167.64" width="0.1524" layer="91"/>
-<label x="127" y="167.64" size="1.778" layer="95" rot="R180"/>
+<label x="127" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R24" gate="A" pin="1"/>
 </segment>
 </net>
@@ -12295,7 +12366,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 </segment>
 <segment>
 <wire x1="129.54" y1="165.1" x2="127" y2="165.1" width="0.1524" layer="91"/>
-<label x="127" y="165.1" size="1.778" layer="95" rot="R180"/>
+<label x="127" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R25" gate="A" pin="1"/>
 </segment>
 </net>
@@ -12307,7 +12378,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 </segment>
 <segment>
 <wire x1="129.54" y1="160.02" x2="127" y2="160.02" width="0.1524" layer="91"/>
-<label x="127" y="160.02" size="1.778" layer="95" rot="R180"/>
+<label x="127" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R26" gate="A" pin="1"/>
 </segment>
 </net>
@@ -12614,35 +12685,35 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <attribute name="VALUE" x="161.544" y="63.881" size="1.778" layer="96"/>
 </instance>
 <instance part="C37" gate="G$1" x="165.1" y="157.48" smashed="yes">
-<attribute name="NAME" x="166.624" y="157.861" size="1.778" layer="95"/>
+<attribute name="NAME" x="164.084" y="162.941" size="1.778" layer="95"/>
 <attribute name="VALUE" x="166.624" y="152.781" size="1.778" layer="96"/>
 </instance>
 <instance part="C38" gate="G$1" x="170.18" y="157.48" smashed="yes">
-<attribute name="NAME" x="171.704" y="157.861" size="1.778" layer="95"/>
+<attribute name="NAME" x="169.164" y="162.941" size="1.778" layer="95"/>
 <attribute name="VALUE" x="171.704" y="152.781" size="1.778" layer="96"/>
 </instance>
 <instance part="C39" gate="G$1" x="175.26" y="157.48" smashed="yes">
-<attribute name="NAME" x="176.784" y="157.861" size="1.778" layer="95"/>
+<attribute name="NAME" x="174.244" y="162.941" size="1.778" layer="95"/>
 <attribute name="VALUE" x="176.784" y="152.781" size="1.778" layer="96"/>
 </instance>
-<instance part="3V3" gate="G$1" x="180.34" y="157.48" smashed="yes">
-<attribute name="NAME" x="181.864" y="157.861" size="1.778" layer="95"/>
+<instance part="C50" gate="G$1" x="180.34" y="157.48" smashed="yes">
+<attribute name="NAME" x="179.324" y="162.941" size="1.778" layer="95"/>
 <attribute name="VALUE" x="181.864" y="152.781" size="1.778" layer="96"/>
 </instance>
 <instance part="C41" gate="G$1" x="185.42" y="157.48" smashed="yes">
-<attribute name="NAME" x="186.944" y="157.861" size="1.778" layer="95"/>
+<attribute name="NAME" x="184.404" y="162.941" size="1.778" layer="95"/>
 <attribute name="VALUE" x="186.944" y="152.781" size="1.778" layer="96"/>
 </instance>
 <instance part="C42" gate="G$1" x="190.5" y="157.48" smashed="yes">
-<attribute name="NAME" x="192.024" y="157.861" size="1.778" layer="95"/>
+<attribute name="NAME" x="192.024" y="162.941" size="1.778" layer="95"/>
 <attribute name="VALUE" x="192.024" y="152.781" size="1.778" layer="96"/>
 </instance>
 <instance part="C44" gate="G$1" x="200.66" y="157.48" smashed="yes">
-<attribute name="NAME" x="202.184" y="157.861" size="1.778" layer="95"/>
+<attribute name="NAME" x="199.644" y="162.941" size="1.778" layer="95"/>
 <attribute name="VALUE" x="202.184" y="152.781" size="1.778" layer="96"/>
 </instance>
 <instance part="C45" gate="G$1" x="205.74" y="157.48" smashed="yes">
-<attribute name="NAME" x="207.264" y="157.861" size="1.778" layer="95"/>
+<attribute name="NAME" x="204.724" y="162.941" size="1.778" layer="95"/>
 <attribute name="VALUE" x="207.264" y="152.781" size="1.778" layer="96"/>
 </instance>
 </instances>
@@ -12672,13 +12743,11 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="U1" gate="G$6" pin="EPHY_VCC"/>
 <wire x1="101.6" y1="127" x2="104.14" y2="127" width="0.1524" layer="91"/>
 <label x="104.14" y="127" size="1.27" layer="95" xref="yes"/>
-<label x="104.14" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
 <label x="127" y="152.4" size="1.27" layer="95" xref="yes"/>
 <wire x1="124.46" y1="152.4" x2="127" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R16" gate="A" pin="2"/>
-<label x="127" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$6" pin="VCC-0"/>
@@ -12708,7 +12777,6 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="U1" gate="G$6" pin="VCC-USB"/>
 <wire x1="101.6" y1="137.16" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
 <label x="104.14" y="137.16" size="1.27" layer="95" xref="yes"/>
-<label x="104.14" y="137.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C37" gate="G$1" pin="1"/>
@@ -12720,7 +12788,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="C39" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="160.02" x2="180.34" y2="160.02" width="0.1524" layer="91"/>
 <junction x="175.26" y="160.02"/>
-<pinref part="3V3" gate="G$1" pin="1"/>
+<pinref part="C50" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="160.02" x2="185.42" y2="160.02" width="0.1524" layer="91"/>
 <junction x="180.34" y="160.02"/>
 <pinref part="C41" gate="G$1" pin="1"/>
@@ -12732,7 +12800,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="C44" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="160.02" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
 <junction x="200.66" y="160.02"/>
-<label x="187.96" y="160.02" size="1.778" layer="95"/>
+<label x="195.58" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -12747,13 +12815,11 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="U1" gate="G$6" pin="PAD"/>
 <wire x1="101.6" y1="157.48" x2="104.14" y2="157.48" width="0.1524" layer="91"/>
 <label x="104.14" y="157.48" size="1.27" layer="95" xref="yes"/>
-<label x="104.14" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$6" pin="AGND"/>
 <wire x1="101.6" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
 <label x="104.14" y="142.24" size="1.27" layer="95" xref="yes"/>
-<label x="104.14" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C37" gate="G$1" pin="2"/>
@@ -12765,7 +12831,7 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="C39" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="152.4" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
 <junction x="175.26" y="152.4"/>
-<pinref part="3V3" gate="G$1" pin="2"/>
+<pinref part="C50" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="152.4" x2="185.42" y2="152.4" width="0.1524" layer="91"/>
 <junction x="180.34" y="152.4"/>
 <pinref part="C41" gate="G$1" pin="2"/>
@@ -12827,13 +12893,11 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="U1" gate="G$6" pin="VCC-PLL"/>
 <wire x1="101.6" y1="121.92" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
 <label x="104.14" y="121.92" size="1.27" layer="95" xref="yes"/>
-<label x="104.14" y="121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$6" pin="AVCC"/>
 <wire x1="101.6" y1="147.32" x2="104.14" y2="147.32" width="0.1524" layer="91"/>
 <label x="104.14" y="147.32" size="1.27" layer="95" xref="yes"/>
-<label x="104.14" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1V8" class="3">
@@ -12951,7 +13015,6 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <wire x1="104.14" y1="116.84" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
 <junction x="104.14" y="116.84"/>
 <label x="106.68" y="116.84" size="1.27" layer="95" xref="yes"/>
-<label x="106.68" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$6" pin="VDD-CPU0"/>
@@ -12992,7 +13055,6 @@ SOT-23-5 package, no indicator LED but with adjustable current, small and very i
 <pinref part="U1" gate="G$6" pin="EPHY_VDD"/>
 <wire x1="101.6" y1="132.08" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 <label x="104.14" y="132.08" size="1.27" layer="95" xref="yes"/>
-<label x="104.14" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>

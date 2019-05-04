@@ -27,59 +27,6 @@
                     },
                     "board_outline": false,
                     "config": {
-                        "description": "Assembly TOP",
-                        "file_function": "Other"
-                    },
-                    "filename_format": "%PREFIX/assembly_top.gerber",
-                    "layers": [
-                        20,
-                        21,
-                        23,
-                        25,
-                        47,
-                        51
-                    ],
-                    "milling": false,
-                    "name": "Assembly TOP",
-                    "polarity": "positive",
-                    "type": "gerber_layer"
-                },
-                {
-                    "advanced_options": {
-                        "mirror": true,
-                        "offset_x": 0,
-                        "offset_y": 0,
-                        "rotate": false,
-                        "upside_down": false
-                    },
-                    "board_outline": false,
-                    "config": {
-                        "description": "Assembly mirrored BOT",
-                        "file_function": "Other"
-                    },
-                    "filename_format": "%PREFIX/assembly_mirrored_bot.gerber",
-                    "layers": [
-                        20,
-                        22,
-                        24,
-                        26,
-                        52
-                    ],
-                    "milling": false,
-                    "name": "Assembly mirrored BOT",
-                    "polarity": "positive",
-                    "type": "gerber_layer"
-                },
-                {
-                    "advanced_options": {
-                        "mirror": false,
-                        "offset_x": 0,
-                        "offset_y": 0,
-                        "rotate": false,
-                        "upside_down": false
-                    },
-                    "board_outline": false,
-                    "config": {
                         "description": "Copper 1 TOP",
                         "file_function": "Other"
                     },
@@ -323,7 +270,7 @@
                     "type": "gerber_layer"
                 }
             ],
-            "version": "RS274X"
+            "version": "X2"
         },
         {
             "filename_prefix": "CAMOutputs/DrillFiles",
@@ -362,7 +309,7 @@
             ]
         }
     ],
-    "timestamp": "2019-04-25T20:25:49",
+    "timestamp": "2019-04-25T20:42:32",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
